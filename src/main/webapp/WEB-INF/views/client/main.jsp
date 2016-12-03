@@ -84,6 +84,10 @@
 
 <br/>
 <a href="<c:url value='/new' />">Добавить продукт</a>
+
+  <br/>
+  <a href="<c:url value='/admin' />">Админка</a>
+
 </div>
 
 </body>

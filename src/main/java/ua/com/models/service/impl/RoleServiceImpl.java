@@ -69,10 +69,13 @@ public class RoleServiceImpl extends MainServiceImpl<Role> implements RoleServic
     @Transactional(readOnly = true)
     public List<Role> getPersonnel() {
         List<Role> roles = this.dao.getAll();
-        if (roles.isEmpty()) {
+      /*
+       if (roles.isEmpty()) {
+
             return Collections.emptyList();
         }
         roles.remove(getDefault());
+       */
         return roles;
     }
 

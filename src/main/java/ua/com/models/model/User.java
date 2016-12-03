@@ -115,7 +115,8 @@ public class User extends Model implements UserDetails {
 
     public void initialize(String name, String username, String password, String email,
                            String phone, String vkontakte, String facebook, String skype,
-                           String description, Role role) {
+                           String description, Role role
+    ) {
         setName(name);
         setUsername(username);
         setPassword(password);

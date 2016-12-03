@@ -37,9 +37,13 @@ public class AppController {
         return "client/main";
     }
 
+    @RequestMapping(value = { "/admin" }, method = RequestMethod.GET)
+    public String newProduct() {
+        return "admin/admin_navbar";
+    }
+
     @RequestMapping(value = { "/new" }, method = RequestMethod.GET)
-    public String newEmployee(ModelMap model
-    ) {
+    public String goToAdmin() {
         return "client/registration";
     }
 

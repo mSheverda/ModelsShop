@@ -3,3 +3,7 @@ section .main {
     text-align: center;
     height: 600px
 }
+
+.clients {
+    margin-top: 70px;
+}
