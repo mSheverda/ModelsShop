@@ -103,8 +103,6 @@ public class AdminUsersController {
         modelAndView.addObject("auth_user", this.userService.getAuthenticatedUser());
         modelAndView.setViewName("/admin/user/add");
 
-
-
         return modelAndView;
     }
 

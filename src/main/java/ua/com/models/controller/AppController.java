@@ -46,18 +46,18 @@ public class AppController {
     public String goToAdmin() {
         return "client/registration";
     }
-
+/*
     @RequestMapping(value = { "/new" }, method = RequestMethod.POST)
     public String saveEmployee(
                                @RequestParam String url,
                                ModelMap model
                               ) {
-
-        Product product = new Product(url);
+        /   Product product = new Product(url);
         this.service.add(product);
 
 
         model.addAttribute("success", "Product " + product.getUrl() + " registered successfully");
         return "client/success";
     }
+    */
 }

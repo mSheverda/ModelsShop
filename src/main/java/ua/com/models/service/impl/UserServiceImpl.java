@@ -79,6 +79,7 @@ public class UserServiceImpl extends MainServiceImpl<User> implements UserServic
         List<User> users = new ArrayList<>();
         users.addAll(getAdministrators());
         users.addAll(getManagers());
+        users.addAll(getClients()); //new
         return users;
     }
 
