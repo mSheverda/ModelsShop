@@ -55,8 +55,8 @@ public class Product extends Model {
     /**
      * Категория товара.
      * Значение поля (id объекта category) сохраняется в колонке "category_id". Не может быть null.
-     * Между объектами классов {@link Product} и
-     * {@link Category} связь многие-к-одному, а именно каждая
+     * Между объектами классов Product и
+     * Category связь многие-к-одному, а именно каждая
      * много заказов могут иметь одинаковый статус выполнения.
      * Выборка объекта category до первого доступа нему, при первом доступе к текущему объекту.
      */
@@ -67,8 +67,8 @@ public class Product extends Model {
     /**
      * Изображение товара.
      * Значение поля (id объекта photo) сохраняется в колонке "photo_id".
-     * Между объектами классов {@link Category} и
-     * {@link Photo} связь один-к-одному, а именно каждая
+     * Между объектами классов  Category и
+     * Photo связь один-к-одному, а именно каждая
      * запись в одной таблице напрямую связана с отдельной записью в другой таблице.
      * Выборка объекта photo до первого доступа нему, при первом доступе к текущему объекту.
      * Сущности связаны полностью каскадным обновлением записей в базе данных.
@@ -98,12 +98,6 @@ public class Product extends Model {
     /**
      * Конструктор для инициализации основных переменных товара.
      * Автоматически инициализируются поля article.
-     *
-     * @param title    Название товара.
-     * @param url      URL товара.
-     * @param category Категория товара.
-     * @param photo    Изображение товара.
-     * @param price    Цена товара.
      */
     public Product(String title, String url, Category category, Photo photo, double price) {
         super();
@@ -119,10 +113,6 @@ public class Product extends Model {
 
     /**
      * Возвращает описание товара.
-     * Переопределенный метод родительского класса {@link Object}.
-     *
-     * @return Значение типа {@link String} - строка описание товара
-     * (название, параметры, описание, название категории, цена).
      */
     @Override
     public String toString() {
@@ -140,9 +130,7 @@ public class Product extends Model {
 
     /**
      * Генерирует строку для конечного сравнения товаров в методе equals() родительского класса.
-     * Переопределенный метод родительского класса {@link Model}.
-     *
-     * @return Значение типа {@link String} - название + URL + цена товара.
+     * Переопределенный метод родительского класса Model.
      */
     @Override
     public String toEquals() {
@@ -151,14 +139,6 @@ public class Product extends Model {
 
     /**
      * Инициализация полей товара.
-     *
-     * @param title       Название товара.
-     * @param url         URL товара.
-     * @param parameters  Параметры товара.
-     * @param description Описание товара.
-     * @param category    Категория товара.
-     * @param photo       Изображение товара.
-     * @param price       Цена товара.
      */
     public void initialize(String title, String url, String parameters,
                            String description, Category category, Photo photo, double price) {
@@ -172,7 +152,7 @@ public class Product extends Model {
     }
 
     /**
-     * Генерирует новый артикль товара.
+     * Генерирует новый артикль товара
      */
     public void newArticle() {
         this.article = Integer.parseInt(createRandomString(CODE_PATTERN, CODE_LENGTH));
@@ -180,35 +160,27 @@ public class Product extends Model {
 
     /**
      * Возвращает артикль товара.
-     *
-     * @return Значение типа int - артикль товара.
      */
     public int getArticle() {
         return this.article;
     }
 
     /**
-     * Устанавливает артикль товара.
-     *
-     * @param article Артикль товара.
+     * Устанавливает артикль товара
      */
     public void setArticle(int article) {
         this.article = article;
     }
 
     /**
-     * Возвращает название товара.
-     *
-     * @return Значение типа {@link String} - название товара.
+     * Возвращает название товара
      */
     public String getTitle() {
         return this.title;
     }
 
     /**
-     * Устанавливает название товара.
-     *
-     * @param title Название товара.
+     * Устанавливает название товара
      */
     public void setTitle(String title) {
         this.title = title != null ? title : "";
@@ -216,35 +188,27 @@ public class Product extends Model {
 
     /**
      * Возвращает URL товара.
-     *
-     * @return Значение типа {@link String} - URL товара.
      */
     public String getUrl() {
         return this.url;
     }
 
     /**
-     * Устанавливает URL товара.
-     *
-     * @param url URL товара.
+     * Устанавливает URL товара
      */
     public void setUrl(String url) {
         this.url = url != null ? url : "";
     }
 
     /**
-     * Возвращает параметры товара.
-     *
-     * @return Значение типа {@link String} - параметры товара.
+     * Возвращает параметры товара
      */
     public String getParameters() {
         return this.parameters;
     }
 
     /**
-     * Устанавливает параметры товара.
-     *
-     * @param parameters Параметры товара.
+     * Устанавливает параметры товара
      */
     public void setParameters(String parameters) {
         this.parameters = parameters != null ? parameters : "";
@@ -252,71 +216,55 @@ public class Product extends Model {
 
     /**
      * Возвращает описание товара.
-     *
-     * @return Значение типа {@link String} - описание товара.
      */
     public String getDescription() {
         return this.description;
     }
 
     /**
-     * Устанавливает описание товара.
-     *
-     * @param description Описание товара.
+     * Устанавливает описание товара
      */
     public void setDescription(String description) {
         this.description = description != null ? description : "";
     }
 
     /**
-     * Возвращает изображение товара.
-     *
-     * @return Объект класса {@link Photo} - изображение товара.
+     * Возвращает изображение товара
      */
     public Photo getPhoto() {
         return this.photo;
     }
 
     /**
-     * Устанавливает изображение товара.
-     *
-     * @param photo Изображене товара.
+     * Устанавливает изображение товара
      */
     public void setPhoto(Photo photo) {
         this.photo = photo;
     }
 
     /**
-     * Возвращает категорию товара.
-     *
-     * @return Объект класса {@link Category} - категория товара.
+     * Возвращает категорию товара
      */
     public Category getCategory() {
         return this.category;
     }
 
     /**
-     * Устанавливает категорию товара.
-     *
-     * @param category Категорию товара.
+     * Устанавливает категорию товара
      */
     public void setCategory(Category category) {
         this.category = category;
     }
 
     /**
-     * Возвращает цену товара.
-     *
-     * @return Значение типа double - цена товара.
+     * Возвращает цену товара
      */
     public double getPrice() {
         return this.price;
     }
 
     /**
-     * Устанавливает цену товара.
-     *
-     * @param price Цена товара.
+     * Устанавливает цену товара
      */
     public void setPrice(double price) {
         this.price = price > 0 ? price : 0;

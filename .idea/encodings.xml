@@ -4,7 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminUsersController.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_navbar.jsp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/head.jsp" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" charset="windows-1252" />
   </component>
