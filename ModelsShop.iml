@@ -6,9 +6,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/webapp" />
-        </sourceRoots>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
@@ -112,11 +109,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.2.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:2.0.2-beta" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.el:javax.el-api:3.0.1-b04" level="project" />
-    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4-1200-jdbc41" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.dblock.waffle:waffle-jna:1.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna:4.1.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna-platform:4.1.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.guava:guava:18.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-simple:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.2-1002-jdbc4" level="project" />
   </component>
 </module>

@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="SpringHibernateExample" />
       </profile>
+      <profile default="false" name="Annotation profile for ModelsShop" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ModelsShop" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ModelsShop" target="1.8" />
       <module name="SpringHibernateExample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
