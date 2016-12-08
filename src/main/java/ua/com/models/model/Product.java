@@ -41,10 +41,28 @@ public class Product extends Model {
     private String url;
 
     /**
-     * Параметры товара. Значение поля сохраняется в колонке "parameters".
+     * Масштаб товара. Значение поля сохраняется в колонке "scale".
      */
-    @Column(name = "parameters")
-    private String parameters;
+    @Column(name = "scale")
+    private String scale;
+
+    /**
+     * Производитель. Значение поля сохраняется в колонке "manufacturer".
+     */
+    @Column(name = "manufacturer")
+    private String manufacturer;
+
+    /**
+     * Уровень сложности. Значение поля сохраняется в колонке "difficulty".
+     */
+    @Column(name = "difficulty")
+    private String difficulty;
+
+    /**
+     * Количество деталей. Значение поля сохраняется в колонке "num_of_details".
+     */
+    @Column(name = "num_of_details")
+    private String details;
 
     /**
      * Описание товара. Значение поля сохраняется в колонке "description".
@@ -84,30 +102,42 @@ public class Product extends Model {
     private double price;
 
     //new
-  //  @OneToMany(fetch = FetchType.LAZY, mappedBy = "product", cascade = CascadeType.REMOVE)
-  //  private List<SalePosition> salePositions = new ArrayList<>();
+    //  @OneToMany(fetch = FetchType.LAZY, mappedBy = "product", cascade = CascadeType.REMOVE)
+    //  private List<SalePosition> salePositions = new ArrayList<>();
 
     /**
      * Конструктр без параметров.
      * Автоматически инициализируются поля article.
      */
     public Product() {
-        this("", "", null, null, 0.0);
+        //this("", "", "", "", "", "", "", null, null, 0.0);
     }
 
     /**
      * Конструктор для инициализации основных переменных товара.
      * Автоматически инициализируются поля article.
      */
-    public Product(String title, String url, Category category, Photo photo, double price) {
+    public Product( String title,
+                   String url,
+                   String scale,
+                   String manufacturer,
+                   String difficulty,
+                   String details,
+                   String description,
+                   Category category,
+                   Photo photo,
+                   double price) {
         super();
         this.title = title;
         this.url = url;
+        this.scale = scale;
+        this.manufacturer = manufacturer;
+        this.difficulty = difficulty;
+        this.details = details;
+        this.description = description;
         this.category = category;
         this.photo = photo;
         this.price = price;
-        this.parameters = "";
-        this.description = "";
         newArticle();
     }
 
@@ -118,7 +148,10 @@ public class Product extends Model {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Title: ").append(this.title)
-                .append("\nParameters: ").append(this.parameters)
+                .append("\nScale: ").append(this.scale)
+                .append("\nManufacturer: ").append(this.manufacturer)
+                .append("\nDifficulty: ").append(this.difficulty)
+                .append("\nDetails: ").append(this.details)
                 .append("\nDescription: ").append(this.description)
                 .append("\nPrice = ").append(this.price).append(" UAH");
 
@@ -134,17 +167,21 @@ public class Product extends Model {
      */
     @Override
     public String toEquals() {
-        return getArticle() + getTitle() + getUrl() + getPrice();
+        return getArticle() + getTitle() + getUrl() + getDifficulty() + getManufacturer() +
+        getScale() + getDetails()+ getPrice();
     }
 
     /**
      * Инициализация полей товара.
      */
-    public void initialize(String title, String url, String parameters,
-                           String description, Category category, Photo photo, double price) {
+    public void initialize(String title, String url, String details, String manufacturer, String difficulty,
+                           String scale, String description, Category category, Photo photo, double price) {
         setTitle(title);
         setUrl(url);
-        setParameters(parameters);
+        setDetails(details);
+        setManufacturer(manufacturer);
+        setDifficulty(difficulty);
+        setScale(scale);
         setDescription(description);
         setCategory(category);
         setPhoto(photo);
@@ -198,20 +235,6 @@ public class Product extends Model {
      */
     public void setUrl(String url) {
         this.url = url != null ? url : "";
-    }
-
-    /**
-     * Возвращает параметры товара
-     */
-    public String getParameters() {
-        return this.parameters;
-    }
-
-    /**
-     * Устанавливает параметры товара
-     */
-    public void setParameters(String parameters) {
-        this.parameters = parameters != null ? parameters : "";
     }
 
     /**
@@ -270,5 +293,35 @@ public class Product extends Model {
         this.price = price > 0 ? price : 0;
     }
 
+    public String getScale() {
+        return scale;
+    }
 
+    public void setScale(String scale) {
+        this.scale = scale;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public String getDifficulty() {
+        return difficulty;
+    }
+
+    public void setDifficulty(String difficulty) {
+        this.difficulty = difficulty;
+    }
+
+    public String getDetails() {
+        return details;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
 }

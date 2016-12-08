@@ -53,5 +53,4 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
         return dispatcherServlet;
     }
-
 }

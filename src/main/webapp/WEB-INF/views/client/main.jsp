@@ -78,7 +78,7 @@
   <c:forEach items="${products}" var="product">
     <tr>
       <td>${product.url}</td>
-      <td>${product.year}</td>
+      <td>${product.title}</td>
     </tr>
   </c:forEach>
 
