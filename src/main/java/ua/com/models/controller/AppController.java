@@ -38,14 +38,10 @@ public class AppController {
     }
 
     @RequestMapping(value = { "/admin" }, method = RequestMethod.GET)
-    public String newProduct() {
+    public String goToAdmin() {
         return "admin/admin_navbar";
     }
 
-    @RequestMapping(value = { "/new" }, method = RequestMethod.GET)
-    public String goToAdmin() {
-        return "client/registration";
-    }
 /*
     @RequestMapping(value = { "/new" }, method = RequestMethod.POST)
     public String saveEmployee(
