@@ -231,6 +231,4 @@ public class ClientController {
         modelAndView.setViewName("redirect:/cart");
         return modelAndView;
     }
-
-
 }
