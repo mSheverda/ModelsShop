@@ -101,9 +101,9 @@ public class Product extends Model {
     @Column(name = "price", nullable = false)
     private double price;
 
-    //new
-    //  @OneToMany(fetch = FetchType.LAZY, mappedBy = "product", cascade = CascadeType.REMOVE)
-    //  private List<SalePosition> salePositions = new ArrayList<>();
+
+      @OneToMany(fetch = FetchType.LAZY, mappedBy = "product", cascade = CascadeType.REMOVE)
+      private List<SalePosition> salePositions = new ArrayList<>();
 
     /**
      * Конструктр без параметров.

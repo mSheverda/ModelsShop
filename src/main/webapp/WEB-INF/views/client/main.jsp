@@ -101,7 +101,7 @@
 
         <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
           <h4 class="text-all-products text-shadow">
-            <a href="all_products" title="Перейти ко всем товарам">Весь ассортимент кофе</a>
+            <a href="all_products" title="Перейти ко всем товарам">Весь ассортимент моделей</a>
           </h4>
         </div>
       </c:if>
@@ -109,19 +109,10 @@
   </section>
 </div>
 
+<!-- SOME PRODUCTS -->
+<jsp:include page="/WEB-INF/views/client/template/some_products.jsp"/>
+
 <div class="container">
-
-  <h2>Список продуктов</h2>
-
-  <c:forEach items="${products}" var="product">
-    <tr>
-      <td>${product.url}</td>
-      <td>${product.title}</td>
-    </tr>
-  </c:forEach>
-
-<br/>
-<a href="<c:url value='/new' />">Добавить продукт</a>
 
   <br/>
   <a href="<c:url value='/admin' />">Админка</a>

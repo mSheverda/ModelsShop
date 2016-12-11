@@ -1,27 +1,21 @@
 package ua.com.models.controller;
 
-import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import ua.com.models.model.*;
 import ua.com.models.service.*;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Controller
-@RequestMapping("/")
 
-public class ClientController {
+public class AppController {
     /**
      * Объект сервиса для работы с товарами.
      */
@@ -57,9 +51,9 @@ public class ClientController {
      * Помечен аннотацией @Autowired, которая позволит Spring автоматически инициализировать объекты.
      */
     @Autowired
-    public ClientController(ProductService productService, CategoryService categoryService,
-                            ShoppingCartService shoppingCartService, OrderService orderService,
-                            StatusService statusService, RoleService roleService) {
+    public AppController(ProductService productService, CategoryService categoryService,
+                         ShoppingCartService shoppingCartService, OrderService orderService,
+                         StatusService statusService, RoleService roleService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.shoppingCartService = shoppingCartService;
@@ -78,7 +72,7 @@ public class ClientController {
         modelAndView.addObject("categories", this.categoryService.getAll());
         modelAndView.addObject("products", this.productService.getRandom(12));
         modelAndView.addObject("cart_size", this.shoppingCartService.getSize());
-        modelAndView.setViewName("client/home");
+        modelAndView.setViewName("client/main");
         return modelAndView;
     }
 
