@@ -45,7 +45,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers(ADMIN_REQUEST_URl)
                 .hasRole( this.roleService.getAdministrator().getTitle().name()
-                       // String.valueOf(RoleEnum.ADMIN)
                 )
                 .antMatchers(MANAGER_REQUEST_URl)
                 .hasAnyRole(roleService.getAdministrator().getTitle().name(), this.roleService.getManager().getTitle().name())
@@ -68,7 +67,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .inMemoryAuthentication()
                 .withUser(DEFAULT_LOGIN).password(DEFAULT_PASSWORD)
                 .roles(this.roleService.getAdministrator().getTitle().name()
-                       // String.valueOf(RoleEnum.ADMIN)
                 );
     }
 }
