@@ -35,7 +35,7 @@
                     <li id="nav-cart">
                         <a href="cart">
                             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                            Корзина
+                            Корзина(${cart_size})
                         </a>
                     </li>
                 </ul>

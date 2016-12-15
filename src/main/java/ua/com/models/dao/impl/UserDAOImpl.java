@@ -54,11 +54,7 @@ public class UserDAOImpl extends AbstractDaoImpl<User> implements UserDAO {
         return this.userRepository.findAllByRole(admin);
     }
 
-    @Override
-    public List<User> getManagers() {
-        Role manager = this.roleRepository.findOne(MANAGER_ROLE_ID);
-        return this.userRepository.findAllByRole(manager);
-    }
+
 
     @Override
     public List<User> getClients() {

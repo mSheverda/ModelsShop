@@ -19,8 +19,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String ADMIN_REQUEST_URl = "/admin/**";
 
-    private static final String MANAGER_REQUEST_URl = "/manager/**";
-
     private static final String LOGIN_URL = "/login";
 
     private static final String USERNAME = "username";
@@ -46,8 +44,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(ADMIN_REQUEST_URl)
                 .hasRole( this.roleService.getAdministrator().getTitle().name()
                 )
-                .antMatchers(MANAGER_REQUEST_URl)
-                .hasAnyRole(roleService.getAdministrator().getTitle().name(), this.roleService.getManager().getTitle().name())
                 .anyRequest().permitAll()
                 .and()
                 .formLogin()

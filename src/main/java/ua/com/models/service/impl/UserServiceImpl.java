@@ -61,11 +61,6 @@ public class UserServiceImpl extends MainServiceImpl<User> implements UserServic
         return this.dao.getAdministrators();
     }
 
-    @Override
-    @Transactional(readOnly = true)
-    public List<User> getManagers() {
-        return this.dao.getManagers();
-    }
 
     @Override
     @Transactional(readOnly = true)
@@ -78,8 +73,7 @@ public class UserServiceImpl extends MainServiceImpl<User> implements UserServic
     public List<User> getPersonnel() {
         List<User> users = new ArrayList<>();
         users.addAll(getAdministrators());
-        users.addAll(getManagers());
-        users.addAll(getClients()); //new
+        users.addAll(getClients());
         return users;
     }
 

@@ -16,8 +16,6 @@ public interface UserService extends MainService<User> {
 
     List<User> getAdministrators();
 
-    List<User> getManagers();
-
     List<User> getClients();
 
     List<User> getPersonnel();

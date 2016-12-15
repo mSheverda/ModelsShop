@@ -35,7 +35,6 @@ public class AdminUsersController {
     public ModelAndView viewAllPersonnel(ModelAndView modelAndView) {
         modelAndView.addObject("users", this.userService.getPersonnel());
         modelAndView.addObject("admin_role", this.roleService.getAdministrator());
-        modelAndView.addObject("manager_role", this.roleService.getManager());
         modelAndView.addObject("auth_user", this.userService.getAuthenticatedUser());
         modelAndView.setViewName("admin/user/all");
         return modelAndView;
@@ -45,7 +44,6 @@ public class AdminUsersController {
     public ModelAndView viewUser(@PathVariable(value = "id") long id, ModelAndView modelAndView) {
         modelAndView.addObject("user", this.userService.get(id));
         modelAndView.addObject("admin_role", this.roleService.getAdministrator());
-        modelAndView.addObject("manager_role", this.roleService.getManager());
         modelAndView.addObject("auth_user", this.userService.getAuthenticatedUser());
         modelAndView.setViewName("/admin/user/one");
         return modelAndView;

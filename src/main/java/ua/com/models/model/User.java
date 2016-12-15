@@ -47,11 +47,10 @@ public class User extends Model implements UserDetails {
     @JoinColumn(name = "role_id", referencedColumnName = "id")
     private Role role;
 
-  //  @OneToMany(fetch = FetchType.LAZY, mappedBy = "client", cascade = CascadeType.REMOVE)
-  //  private List<Order> clientOrders = new ArrayList<>();
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "client", cascade = CascadeType.REMOVE)
+    private List<Order> clientOrders = new ArrayList<>();
 
-  //  @OneToMany(fetch = FetchType.LAZY, mappedBy = "manager", cascade = CascadeType.REMOVE)
-  //  private List<Order> managerOrders = new ArrayList<>();
+
 
     public User() {
         this("", "", "", null);

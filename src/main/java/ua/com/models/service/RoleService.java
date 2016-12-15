@@ -14,8 +14,6 @@ public interface RoleService extends MainService<Role> {
 
     Role getAdministrator();
 
-    Role getManager();
-
     Role getDefault();
 
     List<Role> getPersonnel();

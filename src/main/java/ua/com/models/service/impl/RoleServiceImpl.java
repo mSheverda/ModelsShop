@@ -49,15 +49,6 @@ public class RoleServiceImpl extends MainServiceImpl<Role> implements RoleServic
 
     @Override
     @Transactional(readOnly = true)
-    public Role getManager()
-    {
-        Role role = this.dao.get(RoleEnum.MANAGER);
-
-        return role;
-    }
-
-    @Override
-    @Transactional(readOnly = true)
     public Role getDefault()
     {
         Role role = this.dao.getDefault();

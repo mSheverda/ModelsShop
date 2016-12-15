@@ -15,8 +15,6 @@ public interface UserDAO extends AbstractDao<User> {
 
     List<User> getAdministrators();
 
-    List<User> getManagers();
-
     List<User> getClients();
 
     User getAuthenticatedUser();
