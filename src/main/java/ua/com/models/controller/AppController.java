@@ -64,13 +64,13 @@ public class AppController {
 
     /**
      * Возвращает главную cтраницу сайта "client/home". Для формирования страницы с базы подгружаются
-     * категории товаров, 12 рандомных товаров и количество товаров в корзине.
+     * категории товаров, 4 рандомных товаров и количество товаров в корзине.
      * URL запроса {"/", "/index"}, метод GET.
      */
     @RequestMapping(value = {"/", "/index", "/home"}, method = RequestMethod.GET)
     public ModelAndView home(ModelAndView modelAndView) {
         modelAndView.addObject("categories", this.categoryService.getAll());
-        modelAndView.addObject("products", this.productService.getRandom(12));
+        modelAndView.addObject("products", this.productService.getRandom(4));
         modelAndView.addObject("cart_size", this.shoppingCartService.getSize());
         modelAndView.setViewName("client/main");
         return modelAndView;
@@ -130,7 +130,7 @@ public class AppController {
 
         modelAndView.addObject("product", product);
         modelAndView.addObject("cart_size", this.shoppingCartService.getSize());
-        modelAndView.addObject("featured_products", this.productService.getRandomByCategoryId(4, categoryId, product.getId()));
+        modelAndView.addObject("featured_products", this.productService.getRandomByCategoryId(3, categoryId, product.getId()));
         modelAndView.setViewName("client/product");
         return modelAndView;
     }

@@ -1,0 +1,9 @@
+section .main {
+    padding-top: 50px;
+    text-align: center;
+    height: 600px
+}
+
+.admin {
+    margin-top: 70px;
+}
