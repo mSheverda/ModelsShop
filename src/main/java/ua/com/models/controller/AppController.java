@@ -195,7 +195,8 @@ public class AppController {
                                      @RequestParam(value = "user_email") String email,
                                      @RequestParam(value = "user_phone") String phone,
                                      ModelAndView modelAndView) {
-        if (this.shoppingCartService.getSize() > 0) {
+        if (this.shoppingCartService.getSize() > 0)
+        {
             Role role = this.roleService.getDefault();
             User client = new User(name, email, phone, role);
 

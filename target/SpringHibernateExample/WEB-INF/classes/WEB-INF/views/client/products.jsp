@@ -111,11 +111,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </c:forEach>
   </c:if>
 
-
-  <h4 class="text-all-products text-shadow">
-    <a href="all_products" title="Перейти ко всем товарам">Весь ассортимент моделей</a>
-  </h4>
-
 </div>
 
 <div class="footer w3layouts">

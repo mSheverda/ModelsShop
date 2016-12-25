@@ -4,42 +4,102 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
 
-<compress:html>
   <html>
   <head>
-    <meta charset="utf-8">
-    <meta lang="ru">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Корзина - выбраные товары."/>
-    <meta name="keywords" content="Корзина, выбраные товары, оформить заказ"/>
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="title" content="Корзина || Models Shop">
-    <title>Корзина || Models Shop</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="resources/img/favicon.ico" type="image/x-icon">
-    <!-- Styles -->
-    <link  href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link  href="resources/bootstrap/css/animate.css" rel="stylesheet" type="text/css">
-    <link  href="resources/bootstrap/css/style.css" rel="stylesheet" type="text/css">
-    <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<title>Корзина || Models Shop</title>
+<link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../../resources/js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="../../../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
+<!-- start menu -->
+<link href="../../../resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="../../../resources/js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+<script src="../../../resources/js/simpleCart.min.js"> </script>
+	  
   </head>
+  
   <body>
 
   <!-- NAVBAR -->
-  <jsp:include page="/WEB-INF/views/client/template/home_navbar.jsp"/>
+ <!--header-->
+<div class="header">
+	<div class="header-top">
+		<div class="container">			
+    
+		<div class="header-left">
+
+		<form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
+        <input type="text" class="form-control" name="pattern" placeholder="Название товара">
+        <input type="submit" class="btn btn-success" value="Поиск">
+			
+					<div class="cart box_1">
+						<a href="checkout.html">
+						<h3> 
+														
+							<img src="../../../resources/images/cart.png" alt=""/>							
+							(${cart_size})
+						</h3>
+						</a>			
+					<br/>
+					</div>
+			
+		</form>			
+		<div class="clearfix"> </div>
+		
+		</div>
+				
+		</div>
+		</div>
+		<div class="container">
+			<div class="head-top">
+				<div class="logo">
+					<h1><a href="index.html">Models Shop</a></h1>
+				</div>
+		    <div class=" h_menu4">
+				<ul class="memenu skyblue">
+				<li><a class="color4" href="login.html">Login</a></li>
+				<li><a class="color4" href="login.html">Login</a></li>
+				<li><a class="color4" href="login.html">Login</a></li>
+				<li><a class="color4" href="login.html">Login</a></li>
+				<li><a class="color4" href="login.html">Login</a></li>
+			  </ul> 
+			</div>
+				
+				<div class="clearfix"> </div>
+		</div>
+		</div>
+	</div>
+	
+	<!-- grow -->
+	<div class="grow">
+		<div class="container">
+			<h2>Корзина</h2>
+		</div>
+	</div>
 
   <!-- CART -->
   <div class="container-fluid width">
     <section id="cart">
       <div class="row cart">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
+        <div class="container">
           <div class="row section-name text-shadow color-brown">
             <b>
-              <span class="color-brown">Корзина</span>
+              
               <!-- EMPTY CART -->
               <c:if test="${fn:length(sale_positions) eq 0}">
-                <span class="color-green"> - список пуст!</span>
+                 <h2>Cписок пуст!</h2>
               </c:if>
             </b>
           </div>
@@ -49,46 +109,137 @@
         <c:if test="${fn:length(sale_positions) gt 0}">
 
           <!-- PRODUCTS IN THE CART -->
-          <jsp:include page="/WEB-INF/views/client/template/products_in_the_cart.jsp"/>
-
-          <!-- Order registration -->
-          <div class="row">
+    <div class="container">
+	<div class="check">
+			 <h1>Товаров в корзине (${cart_size})</h1>
+		 <div class="col-md-9 cart-items">
+			
+			<c:forEach items="${sale_positions}" var="position">
+			 <div class="cart-header">
+				 <div class="close1"> 
+				 
+				  <a href=""
+                                           title="Удалить из корзины">
+                                            <button class="btn btn-danger" type="submit">Удалить из корзины</button>
+                                        </a>
+										
+				 </div>
+				 <div class="cart-sec simpleCart_shelfItem">
+						<div class="cart-item cyc">
+					<a href="product_${position.product.url}" class="b-link-stripe b-animate-go  thickbox">
+					<img class="img-responsive" src="../../../resources/images/product/${position.product.photo.photoLinkShort}" alt="">
+					</a>
+						</div>
+					   
+					   
+				 
+					   
+					   
+					   <div class="cart-item-info">
+				<h2>		
+			<a href="product_${position.product.url}" title="Перейти к ${position.product.title}">
+                ${position.product.title}
+            </a>	
+			</h2>
+						<h3>
+						${position.product.article}
+						
+						</h3>
+					
+				<h2>	<fmt:formatNumber type="number" value="${position.product.price}"/> грн </h2>
+						
+							 <div class="delivery">
+							 
+							 
+							 
+							 <div class="clearfix"></div>
+				        </div>	
+					   </div>
+					   <div class="clearfix"></div>
+											
+				  </div>
+			 </div>
+			 </c:forEach>
+		
+	   <div class="form-inline" margin: auto>
             <form action="checkout" method="post">
-              <div class="col-xs-12 col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2 col-xl-2 col-xl-offset-2 input-padding text-center">
-                <input class="input" type="text" name="user_name" placeholder=" Введите имя"
+              
+                <input class="form-control" type="text" name="user_name" placeholder=" Введите имя"
                        minlength="2" maxlength="50" required autofocus>
-              </div>
-              <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 input-padding text-center">
-                <input class="phone input" type="text" name="user_phone" placeholder=" Введите телефон"
+              
+                <input class="form-control" class="phone input" type="text" name="user_phone" placeholder=" 000-000-00-00"
                        required>
-              </div>
-              <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 input-padding text-center">
-                <input class="input" type="email" name="user_email" placeholder=" Введите Email"
+              
+                <input class="form-control" type="email" name="user_email" placeholder=" Введите Email"
                        minlength="5" maxlength="50">
-              </div>
-              <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 input-padding text-center">
+              
+              
                 <input type="submit" class="btn btn-success" value="Оформить заказ" width="80px">
-              </div>
+              
             </form>
           </div>
+		
+		 </div>
+		 
+		  <div class="col-md-3 cart-total">
+		
+			 <div class="price-details">
+				 <h3> Всего: <fmt:formatNumber type="number" value="${price_of_cart}"/> грн</h3>
+							 
+			 </div>	
+			 <div class="clearfix"></div>
+			 
+			
+			<a class="order" href="all_products">
+                Продолжить покупки
+              </a>
+              <a class="order" href="cart_clear">
+                Очистить корзину
+              </a>
+			
+			</div>
+		
+			<div class="clearfix"> </div>
+	 </div>
+	 </div>
 
-          <div class="row">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 text-center">
-              <a href="all_products">
-                <button class="btn btn-success">Продолжить покупки</button>
-              </a>
-              <a href="cart_clear">
-                <button class="btn btn-success">Очистить корзину</button>
-              </a>
-            </div>
-          </div>
+
         </c:if>
       </div>
     </section>
   </div>
 
   <!-- FOOTER -->
-
+<div class="footer w3layouts">
+				<div class="container">
+			<div class="footer-top-at w3">
+			
+				<div class="col-md-3 amet-sed w3l">
+				<h4>ИНФОРМАЦИЯ</h4>
+				<ul class="nav-bottom">
+						<li><a href="#">Оплата</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="contact.html">Контакты</a></li>						
+					</ul>	
+				</div>
+				<div class="col-md-3 amet-sed w3ls">
+					<h4>КАТЕГОРИИ</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">Танки</a></li>
+						
+					</ul>
+					
+				</div>
+				<div class="col-md-3 amet-sed agileits-w3layouts">
+				<h4>ПОЗВОНИТЕ НАМ</h4>					
+					<p>Офис :  +38 067 224 19 25</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="footer-class w3-agile">		
+		</div>
+		</div>
   <!-- Scripts -->
   <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>
   <script src="resources/bootstrap/js/jquery.appear.js" type="text/javascript"></script>
@@ -97,4 +248,3 @@
   <script src="resources/bootstrap/js/jquery.maskedinput.min.js" type="text/javascript"></script>
   </body>
   </html>
-</compress:html>
