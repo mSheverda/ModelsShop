@@ -42,4 +42,6 @@ public interface ProductDAO extends AbstractDao<Product> {
      * с уникальным кодом - входным параметром.
      */
     List<Product> getListByCategoryId(long id);
+
+    List<Product> search(String searchTerm);
 }

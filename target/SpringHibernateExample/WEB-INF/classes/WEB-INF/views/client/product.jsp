@@ -2,9 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
 
-<compress:html>
+
+
   <html>
   <head>
     <title>single</title>
@@ -33,53 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <body>
 
 <!--header-->
-<div class="header">
-	<div class="header-top">
-		<div class="container">			
-    
-		<div class="header-left">
-
-		<form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
-        <input type="text" class="form-control" name="pattern" placeholder="Название товара">
-        <input type="submit" class="btn btn-success" value="Поиск">
-			
-					<div class="cart box_1">
-						<a href="checkout.html">
-						<h3> 
-														
-							<img src="../../../resources/images/cart.png" alt=""/>							
-							(${cart_size})
-						</h3>
-						</a>			
-					<br/>
-					</div>
-			
-		</form>			
-		<div class="clearfix"> </div>
-		
-		</div>
-				
-		</div>
-		</div>
-		<div class="container">
-			<div class="head-top">
-				<div class="logo">
-					<h1><a href="index.html">Models Shop</a></h1>
-				</div>
-		    <div class=" h_menu4">
-				<ul class="memenu skyblue">
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-			  </ul> 
-			</div>
-				
-				<div class="clearfix"> </div>
-		</div>
-		</div>
-	</div>
+<jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 	
 	<!-- grow -->
 	<div class="grow">
@@ -98,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="top-sing">
 				<div class="col-md-7 single-top">	
 				<c:if test="${(product.photo.photoLinkLong ne null) and (product.photo.photoLinkLong ne '')}">
-              <p><img src="../../../resources/images/product/${product.photo.photoLinkLong}"  width="465px" <!--  height="465px" -->
+              <p><img src="../../../resources/images/product/${product.photo.photoLinkLong}"  width="465px"
 			  
 			  
                       class="hidden-xs hidden-sm" alt="${product.title}"></p>
@@ -251,4 +205,3 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
   </body>
   </html>
-</compress:html>

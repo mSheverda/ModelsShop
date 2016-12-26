@@ -6,45 +6,24 @@
 <compress:html>
     <html>
     <head>
-        <!-- HEAD -->
-        <!-- HEAD -->
-        <meta charset="utf-8">
-        <meta lang="ru">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Клиенты || Models Shop</title>
 
-        <meta name="robots" content="noindex,nofollow">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="../resources/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="../resources/img/favicon.ico" type="image/x-icon">
-        <!-- Styles -->
-        <link href="../resources/css.min.css" rel="stylesheet" type="text/css">
-        <link href="../resources/css/animate.css" rel="stylesheet" type="text/css">
-        <link href="../resources/css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
-              type="text/css">
-        <!-- Scripts -->
-        <script src="../resources/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-        <script src="../resources/js/jquery.appear.js" type="text/javascript"></script>
-        <script src="../resources/js.min.js" type="text/javascript"></script>
-        <script src="../resources/js/jquery.maskedinput.min.js" type="text/javascript"></script>
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
-        <meta name="title" content="${user.name} || Models Shop">
-        <title>${user.name} || Models Shop</title>
     </head>
     <body>
+    <jsp:include page="/WEB-INF/views/admin/admin_header.jsp"/>
 
-    <!-- NAVBAR -->
-    <jsp:include page="/WEB-INF/views/admin/admin_navbar.jsp"/>
+    <div class="grow">
+        <div class="container">
+            <h2>РЕДАКТИРОВАТЬ КЛИЕНТА</h2>
+
+        </div>
+    </div>
 
     <!-- Edit user -->
-    <div class="container-fluid width">
-        <section id="user" class="admin">
+    <div class="container">
+
             <div class="row admin-page">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
-                    <div class="row section-name text-shadow">
-                        <b><span class="color-green">${user.name}</span></b>
-                    </div>
-                </div>
 
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
                     <form action="update_user" method="post">
@@ -150,7 +129,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+
     </div>
     </body>
     </html>

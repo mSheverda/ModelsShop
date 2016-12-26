@@ -5,48 +5,26 @@
 
 <compress:html>
     <html>
+
     <head>
-        <!-- HEAD -->
-        <meta charset="utf-8">
-        <meta lang="ru">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Заказы || Models Shop</title>
 
-        <meta name="robots" content="noindex,nofollow">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="../resources/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="../resources/img/favicon.ico" type="image/x-icon">
-        <!-- Styles -->
-        <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="../resources/bootstrap/css/animate.css" rel="stylesheet" type="text/css">
-        <link href="../resources/bootstrap/css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
-              type="text/css">
-        <!-- Scripts -->
-        <script src="../resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-        <script src="../resources/bootstrap/js/jquery.appear.js" type="text/javascript"></script>
-        <script src="../resources/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../resources/bootstrap/js/jquery.maskedinput.min.js" type="text/javascript"></script>
-
-        <meta name="title" content="Заказ ${order.number} || Models Shop">
-        <title>Заказ ${order.number} || Models Shop</title>
+        <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
     <body>
+    <jsp:include page="/WEB-INF/views/admin/admin_header.jsp"/>
 
-    <!-- NAVBAR -->
-    <jsp:include page="/WEB-INF/views/admin/admin_navbar.jsp"/>
+    <div class="grow">
+        <div class="container">
+            <h2>ЗАКАЗ ${order.number}</h2>
+        </div>
+    </div>
 
     <!-- Order -->
     <div class="container-fluid width">
-        <section id="order">
+
             <div class="row admin-page">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
-                    <div class="row section-name text-shadow">
-                        <b>
-                            <span class="color-brown">Заказ </span>
-                            <span class="color-green">${order.number}</span>
-                        </b>
-                    </div>
-                </div>
+
 
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
                     <table class="table">
@@ -182,7 +160,6 @@
                     </table>
                 </div>
             </div>
-        </section>
     </div>
     </body>
     </html>

@@ -5,50 +5,47 @@
 <compress:html>
     <html>
     <head>
-        <meta charset="utf-8">
-        <meta lang="ru">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noindex,nofollow">
-        <meta name="title" content="Авторизация || Models Shop">
-        <title>Авторизация || Models Shop</title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="resources/img/favicon.ico" type="image/x-icon">
-        <!-- Styles -->
-        <link  href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link  href="resources/bootstrap/css/animate.css" rel="stylesheet" type="text/css">
-        <link  href="resources/bootstrap/css/style.css" rel="stylesheet" type="text/css">
-        <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      
+<title>Авторизация || Models Shop</title>
+<link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../../resources/js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="../../../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
+<!-- start menu -->
+<link href="../../../resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="../../../resources/js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+<script src="../../../resources/js/simpleCart.min.js"> </script>
+		
     </head>
     <body>
 
-    <!-- Navbar -->
-    <div class="nav-bar">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <div class="navbar-brand text-shadow">
-                        <a href="home">
-                            <span class="nav-text-label color-green">Models</span>
-                            <span class="nav-text-label color-brown">Shop</span>
-                            <img class="nav-label" src="resources/img/main_icon.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <!--header-->
+    <jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 
-    <!-- Authorization -->
-    <div class="container-fluid width">
-        <section id="login">
-            <div class="row login">
-                <div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">
-                    <div class="text-shadow">
-                        <span class="authorization">Авторизация</span>
-                    </div>
-
-                    <c:if test="${param.error ne null}">
+	<!-- grow -->
+	<div class="grow">
+		<div class="container">
+			<h2>Авторизация</h2>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="account">
+		<div class="account-pass">
+		<div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">
+		<c:if test="${param.error ne null}">
                         <div class="alert alert-info" role="alert">
                             Ошибка авторизации
                         </div>
@@ -59,8 +56,10 @@
                             Вы вышли из системы
                         </div>
                     </c:if>
-
-                    <form class="form-signin" action="login" method="post">
+					
+				
+			
+			 <form class="form-signin" action="login"  method="post">
                         <input id="username" class="form-control" type="text" name="username"
                                pattern="[A-Za-z0-9_]{5,50}"
                                placeholder="Введите логин, формат (A-Z, a-z, 0-9, _)" style="margin-top: 25px"
@@ -70,10 +69,46 @@
                                style="margin-top: 25px" minlength="6" maxlength="50" required>
                         <button class="btn btn-success" type="submit" style="margin-top: 25px">Войти</button>
                     </form>
-                </div>
-            </div>
-        </section>
-    </div>
+
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	</div>
+	<div class="clearfix"> </div>
+	</div>
+	</div>
+
+</div>
+  <!-- FOOTER -->
+<div class="footer w3layouts">
+				<div class="container">
+			<div class="footer-top-at w3">
+			
+				<div class="col-md-3 amet-sed w3l">
+				<h4>ИНФОРМАЦИЯ</h4>
+				<ul class="nav-bottom">
+						<li><a href="#">Оплата</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="contact.html">Контакты</a></li>						
+					</ul>	
+				</div>
+				<div class="col-md-3 amet-sed w3ls">
+					<h4>КАТЕГОРИИ</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">Танки</a></li>
+						
+					</ul>
+					
+				</div>
+				<div class="col-md-3 amet-sed agileits-w3layouts">
+				<h4>ПОЗВОНИТЕ НАМ</h4>					
+					<p>Офис :  +38 067 224 19 25</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="footer-class w3-agile">		
+		</div>
+		</div> 
 
     <!-- Scripts -->
     <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>

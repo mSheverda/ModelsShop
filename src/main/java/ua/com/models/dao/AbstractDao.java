@@ -26,6 +26,8 @@ public interface AbstractDao <T extends Model> {
         void remove(Collection<T> models);
 
         void removeAll();
+
+
         }
 
 

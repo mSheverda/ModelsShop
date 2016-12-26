@@ -58,7 +58,7 @@ public class AdminProductsController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ModelAndView goToAdmin(ModelAndView modelAndView) {
         modelAndView.addObject("auth_user", this.userService.getAuthenticatedUser());
-        modelAndView.setViewName("admin/admin_navbar");
+        modelAndView.setViewName("admin/admin_header");
         return modelAndView;
 
     }

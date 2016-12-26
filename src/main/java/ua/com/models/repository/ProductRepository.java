@@ -35,9 +35,10 @@ public interface ProductRepository extends MainRepository<Product, Long> {
      * Возвращает список товаров, которые пренадлежат категории
      * с уникальным кодом - входным параметром.
      *
-     * @param id Код категории.
      */
     List<Product> findByCategoryId(long id);
+
+    List<Product> search(String searchTerm);
 }
 
 

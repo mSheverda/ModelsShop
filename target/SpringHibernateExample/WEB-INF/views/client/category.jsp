@@ -1,7 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
 
     <html>
     <head>
@@ -30,55 +29,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</head>
     <body>
 <!--header-->
-<div class="header">
-	<div class="header-top">
-		<div class="container">			
-    
-		<div class="header-left">
+<jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 
-		<form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
-        <input type="text" class="form-control" name="pattern" placeholder="Название товара">
-        <input type="submit" class="btn btn-success" value="Поиск">
-			
-					<div class="cart box_1">
-						<a href="checkout.html">
-						<h3> 
-														
-							<img src="../../../resources/images/cart.png" alt=""/>							
-							(${cart_size})
-						</h3>
-						</a>			
-					<br/>
-					</div>
-			
-		</form>			
-		<div class="clearfix"> </div>
-		
-		</div>
-				
-		</div>
-		</div>
-		<div class="container">
-			<div class="head-top">
-				<div class="logo">
-					<h1><a href="index.html">Models Shop</a></h1>
-				</div>
-		    <div class=" h_menu4">
-				<ul class="memenu skyblue">
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-			  </ul> 
-			</div>
-				
-				<div class="clearfix"> </div>
-		</div>
-		</div>
-	</div>
-	
-	<!-- products -->
 	<!-- grow -->
 	<div class="grow">
 		<div class="container">
@@ -116,12 +68,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		<div class="clearfix"> </div>
 <div class="container">
-		
-                    <h4 class="text-all-products text-shadow">
+	<div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">	
+               <br/>			 
+					<h4 class="text-all-products text-shadow">
                         <a href="all_products" title="Перейти ко всем товарам">Весь ассортимент моделей</a>
                     </h4>
+		<br/>			
+		<br/>			
 </div>	
-    
+</div>	    
 <div class="footer w3layouts">
 				<div class="container">
 			<div class="footer-top-at w3">

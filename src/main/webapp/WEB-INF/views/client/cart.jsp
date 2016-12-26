@@ -2,10 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
 
-  <html>
-  <head>
+<html>
+<head>
 <title>Корзина || Models Shop</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -16,8 +15,6 @@
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
@@ -32,55 +29,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   
   <body>
 
-  <!-- NAVBAR -->
+  
  <!--header-->
-<div class="header">
-	<div class="header-top">
-		<div class="container">			
-    
-		<div class="header-left">
-
-		<form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
-        <input type="text" class="form-control" name="pattern" placeholder="Название товара">
-        <input type="submit" class="btn btn-success" value="Поиск">
-			
-					<div class="cart box_1">
-						<a href="checkout.html">
-						<h3> 
-														
-							<img src="../../../resources/images/cart.png" alt=""/>							
-							(${cart_size})
-						</h3>
-						</a>			
-					<br/>
-					</div>
-			
-		</form>			
-		<div class="clearfix"> </div>
-		
-		</div>
-				
-		</div>
-		</div>
-		<div class="container">
-			<div class="head-top">
-				<div class="logo">
-					<h1><a href="index.html">Models Shop</a></h1>
-				</div>
-		    <div class=" h_menu4">
-				<ul class="memenu skyblue">
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-			  </ul> 
-			</div>
-				
-				<div class="clearfix"> </div>
-		</div>
-		</div>
-	</div>
+ <jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 	
 	<!-- grow -->
 	<div class="grow">

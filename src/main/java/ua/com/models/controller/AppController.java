@@ -76,6 +76,15 @@ public class AppController {
         return modelAndView;
     }
 
+    @RequestMapping(value = {"/contacts"}, method = RequestMethod.GET)
+    public ModelAndView contacts(ModelAndView modelAndView) {
+        modelAndView.addObject("cart_size", this.shoppingCartService.getSize());
+        modelAndView.setViewName("client/contacts");
+        return modelAndView;
+    }
+
+
+
     /**
      * Перенаправляет по по запросу "/".
      */

@@ -26,53 +26,8 @@
 </head>
 <body>
 <!--header-->
-<div class="header">
-	<div class="header-top">
-		<div class="container">			
-    
-		<div class="header-left">
+<jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 
-		<form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
-        <input type="text" class="form-control" name="pattern" placeholder="Название товара">
-        <input type="submit" class="btn btn-success" value="Поиск">
-			
-					<div class="cart box_1">
-						<a href="checkout.html">
-						<h3> 
-														
-							<img src="../../../resources/images/cart.png" alt=""/>							
-							(${cart_size})
-						</h3>
-						</a>			
-					<br/>
-					</div>
-			
-		</form>			
-		<div class="clearfix"> </div>
-		
-		</div>
-				
-		</div>
-		</div>
-		<div class="container">
-			<div class="head-top">
-				<div class="logo">
-					<h1><a href="index.html">Models Shop</a></h1>
-				</div>
-		    <div class=" h_menu4">
-				<ul class="memenu skyblue">
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-				<li><a class="color4" href="login.html">Login</a></li>
-			  </ul> 
-			</div>
-				
-				<div class="clearfix"> </div>
-		</div>
-		</div>
-	</div>
 	<div class="banner">
 		<div class="container">
 			  <script src="js/responsiveslides.min.js"></script>
@@ -104,6 +59,7 @@
 	<div class="cont">
 		<div class="content">
 			<div class="content-top-bottom">
+			<section id="categories">
 			
 				<h2>Категории
 				<c:if test="${fn:length(categories) eq 0}">
@@ -159,12 +115,14 @@
 				
 				</c:if>
 				<div class="clearfix"> </div>
-				
+				</section>
 			</div>
 			<div class="content-top">
+			<section id="products">
 				<h1>ПОПУЛЯРНЫЕ ТОВАРЫ</h1>
-					
 				
+		   
+		   				
 				<div class="grid-in">
 					
 	<c:if test="${fn:length(products) gt 0}">
@@ -189,11 +147,18 @@
 					
 					<div class="clearfix"> </div>
 				</div>
+			</section>	
 			</div>
+			
 		</div>
-	<!----->
+	
 	</div>
-	<!---->
+	
+
+   
+    <!-- Scripts -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
 </div>
 <div class="footer w3layouts">
 				<div class="container">

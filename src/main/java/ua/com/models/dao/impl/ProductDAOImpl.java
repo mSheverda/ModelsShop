@@ -90,5 +90,11 @@ public class ProductDAOImpl extends AbstractDaoImpl<Product> implements ProductD
     public List<Product> getListByCategoryId(long id) {
         return this.repository.findByCategoryId(id);
     }
+
+    public List<Product> search(String searchTerm)
+    {
+        return this.repository.search(searchTerm);
+    }
+    
 }
 
