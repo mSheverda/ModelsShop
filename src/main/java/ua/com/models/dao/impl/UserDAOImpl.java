@@ -84,4 +84,14 @@ public class UserDAOImpl extends AbstractDaoImpl<User> implements UserDAO {
     public void remove(Role role) {
         this.userRepository.deleteAllByRole(role);
     }
+
+    /*
+    @Override
+
+    public List<User> search(String searchTerm)
+    {
+        return this.userRepository.search(searchTerm);
+    }
+    */
+
 }

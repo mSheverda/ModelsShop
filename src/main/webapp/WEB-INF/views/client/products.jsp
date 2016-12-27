@@ -28,57 +28,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <script src="../../../resources/js/simpleCart.min.js"> </script>
 
 </head>
-<body>
-<!--header-->
-<div class="header">
-  <div class="header-top">
-    <div class="container">
+<body><!--header-->
+<jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 
-      <div class="header-left">
-
-        <form class="form-inline" role="form" action="/SpringMVC_war_exploded/search" method="post">
-          <input type="text" class="form-control" name="pattern" placeholder="Название товара">
-          <input type="submit" class="btn btn-success" value="Поиск">
-
-          <div class="cart box_1">
-            <a href="checkout.html">
-              <h3>
-
-                <img src="../../../resources/images/cart.png" alt=""/>
-                (${cart_size})
-              </h3>
-            </a>
-            <br/>
-          </div>
-
-        </form>
-        <div class="clearfix"> </div>
-
-      </div>
-
-    </div>
-  </div>
-  <div class="container">
-    <div class="head-top">
-      <div class="logo">
-        <h1><a href="index.html">Models Shop</a></h1>
-      </div>
-      <div class=" h_menu4">
-        <ul class="memenu skyblue">
-          <li><a class="color4" href="login.html">Login</a></li>
-          <li><a class="color4" href="login.html">Login</a></li>
-          <li><a class="color4" href="login.html">Login</a></li>
-          <li><a class="color4" href="login.html">Login</a></li>
-          <li><a class="color4" href="login.html">Login</a></li>
-        </ul>
-      </div>
-
-      <div class="clearfix"> </div>
-    </div>
-  </div>
-</div>
-
-<!-- products -->
 <!-- grow -->
 <div class="grow">
   <div class="container">
@@ -98,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 
       </a>
-      <p><a href="single.html">${product.title}</a></p>
+      <p><a href="${product.url}">${product.title}</a></p>
 
       <form action="cart_add" method=post>
         <input type=hidden name="id" value="${product.id}">

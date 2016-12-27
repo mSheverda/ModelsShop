@@ -27,7 +27,7 @@ public interface AbstractDao <T extends Model> {
 
         void removeAll();
 
-
+       // List<T> search(String pattern);
         }
 
 

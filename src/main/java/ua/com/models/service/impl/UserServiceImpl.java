@@ -114,4 +114,14 @@ public class UserServiceImpl extends MainServiceImpl<User> implements UserServic
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return getByUsername(username);
     }
+
+/*
+    @Override
+    @Transactional
+    public List<User> searchProduct(String searchTerm)
+    {
+        return this.dao.search(searchTerm);
+    }
+  */
+
 }

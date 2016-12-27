@@ -27,4 +27,6 @@ public interface UserService extends MainService<User> {
     void removeByRole(Role role);
 
     void removePersonnel();
+
+  //  List<User> searchProduct(String searchTerm);
 }

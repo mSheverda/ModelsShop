@@ -195,4 +195,11 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         Collections.shuffle(products);
         return products.subList(start, end);
     }
+
+    @Override
+    @Transactional
+    public List<Product> searchProduct(String searchTerm)
+    {
+        return this.productDAO.search(searchTerm);
+    }
 }

@@ -44,4 +44,5 @@ public interface ProductDAO extends AbstractDao<Product> {
     List<Product> getListByCategoryId(long id);
 
     List<Product> search(String searchTerm);
+
 }

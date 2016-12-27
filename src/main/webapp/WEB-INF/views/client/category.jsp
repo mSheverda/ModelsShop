@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 							
 						</a>
-					<p><a href="single.html">${product.title}</a></p>
+					<p><a href="product_${product.url}">${product.title}</a></p>
 					
 			<form action="cart_add" method=post>
               <input type=hidden name="id" value="${product.id}">

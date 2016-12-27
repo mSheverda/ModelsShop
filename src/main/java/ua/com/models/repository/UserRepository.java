@@ -1,6 +1,7 @@
 package ua.com.models.repository;
 
 
+import ua.com.models.model.Product;
 import ua.com.models.model.Role;
 import ua.com.models.model.User;
 
@@ -18,5 +19,7 @@ public interface UserRepository extends MainRepository<User, Long> {
     void deleteAllByRole(Role role);
 
     void deleteByName(String name);
+
+    //List<User> search(String searchTerm);
 }
 

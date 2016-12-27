@@ -60,5 +60,11 @@ public abstract class AbstractDaoImpl<T extends Model> implements AbstractDao<T>
     public void removeAll() {
         this.repository.deleteAll();
     }
+/*
+    @Override
+    public List<T> search(String pattern) {
+        return this.repository.search(pattern) ;
+    }
+    */
 }
 

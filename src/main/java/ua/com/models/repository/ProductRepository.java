@@ -38,7 +38,7 @@ public interface ProductRepository extends MainRepository<Product, Long> {
      */
     List<Product> findByCategoryId(long id);
 
-    List<Product> search(String searchTerm);
+ //   List<Product> search(String searchTerm);
 }
 
 

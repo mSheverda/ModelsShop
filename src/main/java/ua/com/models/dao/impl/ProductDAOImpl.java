@@ -10,6 +10,8 @@ import ua.com.models.dao.ProductDAO;
 import ua.com.models.model.Product;
 import ua.com.models.repository.ProductRepository;
 
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import java.util.List;
 
 @Repository
@@ -32,6 +34,8 @@ public class ProductDAOImpl extends AbstractDaoImpl<Product> implements ProductD
         this.repository = repository;
     }
 
+    @Autowired
+    private EntityManager entityManager;
     /**
      * Возвращает товар из базы данных, у которого совпадает параметр url.
 
@@ -90,11 +94,19 @@ public class ProductDAOImpl extends AbstractDaoImpl<Product> implements ProductD
     public List<Product> getListByCategoryId(long id) {
         return this.repository.findByCategoryId(id);
     }
-
+/*
+    @Override
     public List<Product> search(String searchTerm)
     {
         return this.repository.search(searchTerm);
     }
-    
+    */
+
+    @Override
+    public List<Product> search(String pattern) {
+        Query query = entityManager.createQuery("SELECT a FROM Product  a WHERE LOWER(a.title) LIKE :pattern", Product.class);
+        query.setParameter("pattern", "%" + pattern + "%");
+        return (List<Product>) query.getResultList();
+    }
 }
 

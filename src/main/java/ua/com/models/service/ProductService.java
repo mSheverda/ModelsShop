@@ -82,4 +82,8 @@ public interface ProductService extends MainService<Product> {
      *
      */
     void removeByCategoryId(Long id);
+
+
+    List<Product> searchProduct(String searchTerm);
+
 }
