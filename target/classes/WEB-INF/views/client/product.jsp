@@ -7,7 +7,7 @@
 
   <html>
   <head>
-    <title>single</title>
+    <title>${product.title}</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../../../resources/js/jquery.min.js"></script>
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             
               
 			<br/>
-			<p fontSize: 25px> <b>Характеристики</b></p>
+			<h4>Характеристики</h4>
 			
 		
 <table class="my-table">
@@ -117,44 +117,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			<!---->
 
-		<c:if test="${fn:length(featured_products) gt 0}">	
-		<div class=" bottom-product">
-				<c:forEach items="${featured_products}" var="featured_product">	
-					<div class="col-md-4 bottom-cd simpleCart_shelfItem">
-						<div class="product-at ">
-						<a href="product_${featured_product.url}"
-                     title="Перейти к ${featured_product.title}">
-                    <img src="resources/img/${featured_product.photo.photoLinkShort}"
-                         alt="${featured_product.title}"
-                         class="img-thumbnail blink" width="185px" height="185px">
-                    <div class="text-shadow">
-                        ${featured_product.title}
-                    </div>
-                    <p class="price-top">
-                      <fmt:formatNumber type="number" value="${featured_product.price}"/> грн
-                    </p>
-                  </a>	
-						</div>
-						<br/>
-						<div class="ca-rt">
-							<a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>						
-						</div>						
-						
-						<form action="cart_add" method=post>
-              <input type=hidden name="id" value="${featured_product.id}">
-              <p class="text" title="Добавить ${featured_product.title} в корзину">
-                <button class="btn btn-success" type="submit">Добавить в корзину</button>
-              </p>
-            </form>
-						
-					</div>
-				</c:forEach>	
+		<c:if test="${fn:length(featured_products) gt 0}">
 
-						
-					<div class="clearfix"> </div>
-		</div>
-		</c:if>		
-				
+			<h1 align="center">ПОХОЖИЕ ТОВАРЫ</h1>
+			<div class="grid-in">
+				<c:forEach items="${featured_products}" var="featured_product">
+						<div class="col-md-4 grid-top simpleCart_shelfItem">
+							<a href="product_${featured_product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${featured_product.photo.photoLinkShort}" alt="">
+
+							</a>
+							<p align="center"><a href="product_${featured_product.url}">${featured_product.title}</a></p>
+
+							<form action="cart_add" method=post>
+								<input type=hidden name="id" value="${featured_product.id}">
+								<p class="text" title="Добавить ${featured_product.title} в корзину" align="center">
+	<fmt:formatNumber type="number" value="${featured_product.price}"/> грн	&nbsp; <button class="btn btn-success" type="submit">Добавить в корзину</button>
+								</p>
+
+
+							</form>
+						</div>
+					</c:forEach>
+				<div class="clearfix"> </div>
+			</div>
+			</c:if>
 </div>
 
 		<div class="clearfix"> </div>

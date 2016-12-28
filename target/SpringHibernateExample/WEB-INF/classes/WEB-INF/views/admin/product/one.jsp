@@ -6,7 +6,7 @@
 <compress:html>
     <html>
     <head>
-        <title>Товары || Models Shop</title>
+        <title>${product.title}</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
@@ -15,7 +15,7 @@
 
     <div class="grow">
         <div class="container">
-            <h2>"${product.title}"</h2>
+            <h2>${product.title}</h2>
 
         </div>
     </div>
@@ -67,12 +67,12 @@
                         <tr>
                             <th>Изображение:</th>
                             <td>
-                                    ${product.photo.title}
-                                <br><img width="210px" height="200px"
-                                         src="/resources/img/product/${product.photo.photoLinkShort}">
+                                ${product.photo.title}
+                                <br><img width="210px"
+                                         src="../../../resources/images/product/${product.photo.photoLinkShort}">
                                 <c:if test="${product.photo.photoLinkLong ne null}">
-                                    <img width="391px" height="300px"
-                                         src="/resources/img/product/${product.photo.photoLinkLong}">
+                                    <img width="391px"
+                                         src="../../../resources/images/product/${product.photo.photoLinkLong}">
                                 </c:if>
                             </td>
                         </tr>

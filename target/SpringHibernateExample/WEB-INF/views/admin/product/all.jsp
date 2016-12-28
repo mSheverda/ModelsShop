@@ -6,7 +6,7 @@
 <compress:html>
     <html>
     <head>
-        <title>Товары || Models Shop</title>
+        <title>Товары</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
@@ -44,7 +44,7 @@
                 <c:if test="${fn:length(products) gt 0}">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
                         <div class="clearfix"></div>
-                        <table class="table">
+                        <table class="table table-striped">
                             <tr>
                                 <th width="40%">Название</th>
                                 <th class="hidden-xs" width="15%">Категория</th>

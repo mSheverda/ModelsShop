@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <html>
 <head>
@@ -131,12 +132,12 @@
 						<a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 							
 						</a>
-					<p><a href="single.html">${product.title}</a></p>
+					<p><a href="product_${product.url}">${product.title}</a></p>
 					
 			<form action="cart_add" method=post>
               <input type=hidden name="id" value="${product.id}">
               <p class="text" title="Добавить ${product.title} в корзину">
-                <button class="btn btn-success" type="submit">Добавить в корзину</button>
+				  <fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
               </p>
             </form>
 					

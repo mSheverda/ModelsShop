@@ -7,7 +7,7 @@
 
     <html>
     <head>
-        <title>Редактировать категорию || Models Shop</title>
+        <title>Редактировать категорию</title>
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
     <body>

@@ -239,11 +239,13 @@ public class AppController {
         return modelAndView;
     }
 
+    /*
+    * Поиск по названию продукта
+    * */
     @RequestMapping(value="/search", method=RequestMethod.POST)
     public String greetingsAction(@RequestParam(value="pattern") String pattern,
                                   RedirectAttributes redirectAttributes)
     {
-        //setting attributes
         redirectAttributes.addFlashAttribute("products", this.productService.searchProduct(pattern));
         return "redirect:/results";
     }

@@ -55,14 +55,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <form action="cart_add" method=post>
         <input type=hidden name="id" value="${product.id}">
         <p class="text" title="Добавить ${product.title} в корзину">
-          <button class="btn btn-success" type="submit">Добавить в корзину</button>
+          <fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
         </p>
       </form>
     </div>
   </div>
   </c:forEach>
   </c:if>
-
+  <br/>
+  <br/>
 </div>
 
 <div class="footer w3layouts">

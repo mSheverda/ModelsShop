@@ -7,7 +7,7 @@
     <html>
 
     <head>
-        <title>Заказы || Models Shop</title>
+        <title>Редактировать заказ</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>

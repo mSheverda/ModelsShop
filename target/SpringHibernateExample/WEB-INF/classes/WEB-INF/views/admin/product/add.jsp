@@ -6,7 +6,7 @@
 <compress:html>
     <html>
     <head>
-        <title>Товары || Models Shop</title>
+        <title>Добавить товар</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>

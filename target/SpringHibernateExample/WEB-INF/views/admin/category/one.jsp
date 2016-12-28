@@ -6,7 +6,7 @@
 <compress:html>
     <html>
     <head>
-        <title>Категория ${category.title}|| Models Shop</title>
+        <title>${category.title}</title>
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
     <body>
@@ -14,7 +14,7 @@
 
     <div class="grow">
         <div class="container">
-            <h2>КАТЕГОРИЯ "${category.title}"</h2>
+            <h2>КАТЕГОРИЯ ${category.title}</h2>
         </div>
     </div>
 
@@ -43,7 +43,7 @@
                             <th>Изображение:</th>
                             <td>${category.photo.title}
                                 <br><img width="500px" height="250px"
-                                         src="/resources/img/category/${category.photo.photoLinkShort}">
+                                         src="../../../resources/images/category/${category.photo.photoLinkShort}">
 
 
                             </td>

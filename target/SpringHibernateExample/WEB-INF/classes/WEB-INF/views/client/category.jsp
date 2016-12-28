@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
     <html>
     <head>
@@ -43,25 +44,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<c:if test="${fn:length(products) eq 0}">
                                 <span class="home-block-name color-red"> - список пуст!</span>
                             </c:if>
-	<div class="grid-in">
+
+
+
+		<div class="grid-in">
+
 			<c:if test="${fn:length(products) gt 0}">
-    <c:forEach items="${products}" var="product">	
-				<div class="col-md-3 grid-top simpleCart_shelfItem">					
+				<c:forEach items="${products}" var="product">
+					<div class="col-md-3 grid-top simpleCart_shelfItem">
 						<a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
-							
+
 						</a>
-					<p><a href="single.html">${product.title}</a></p>
-					
-			<form action="cart_add" method=post>
-              <input type=hidden name="id" value="${product.id}">
-              <p class="text" title="Добавить ${product.title} в корзину">
-                <button class="btn btn-success" type="submit">Добавить в корзину</button>
-              </p>
-            </form>
-			</div>			
-	</div>	
-    </c:forEach>
-</c:if>
+						<p><a href="product_${product.url}">${product.title}</a></p>
+
+						<form action="cart_add" method=post>
+							<input type=hidden name="id" value="${product.id}">
+							<p class="text" title="Добавить ${product.title} в корзину">
+								<fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
+							</p>
+						</form>
+
+					</div>
+				</c:forEach>
+			</c:if>
+
+
+			<div class="clearfix"> </div>
+		</div>
+
+
+
                    
 		</div>			
 		

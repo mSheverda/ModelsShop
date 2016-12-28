@@ -7,7 +7,7 @@
     <html>
 
     <head>
-        <title>Заказы || Models Shop</title>
+        <title>Заказы</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
@@ -38,7 +38,7 @@
 
                 <c:if test="${fn:length(orders) gt 0}">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
-                        <table class="table">
+                        <table class="table table-striped">
                             <tr>
                                 <th>Номер</th>
                                 <th>Статус</th>

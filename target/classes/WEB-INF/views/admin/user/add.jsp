@@ -7,7 +7,7 @@
     <html>
 
     <head>
-        <title>Клиенты || Models Shop</title>
+        <title>Добавить клиента</title>
 
         <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
     </head>
@@ -16,7 +16,7 @@
 
     <div class="grow">
         <div class="container">
-            <h2>ДОБАВИТЬ ТОВАР</h2>
+            <h2>ДОБАВИТЬ КЛИЕНТА</h2>
 
         </div>
     </div>

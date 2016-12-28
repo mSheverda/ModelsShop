@@ -107,15 +107,15 @@ public class Product extends Model {
 
     /**
      * Конструктр без параметров.
-     * Автоматически инициализируются поля article.
+
      */
     public Product() {
-        //this("", "", "", "", "", "", "", null, null, 0.0);
+
     }
 
     /**
      * Конструктор для инициализации основных переменных товара.
-     * Автоматически инициализируются поля article.
+
      */
     public Product( String title,
                    String url,
@@ -126,7 +126,8 @@ public class Product extends Model {
                    String description,
                    Category category,
                    Photo photo,
-                   double price) {
+                   double price
+    ) {
         super();
         this.title = title;
         this.url = url;
@@ -138,7 +139,7 @@ public class Product extends Model {
         this.category = category;
         this.photo = photo;
         this.price = price;
-        newArticle();
+
     }
 
     /**
@@ -186,14 +187,16 @@ public class Product extends Model {
         setCategory(category);
         setPhoto(photo);
         setPrice(price);
+        setArticle(Integer.parseInt(createRandomString(CODE_PATTERN, CODE_LENGTH)));
     }
 
     /**
      * Генерирует новый артикль товара
-     */
-    public void newArticle() {
+
+     public void newArticle() {
         this.article = Integer.parseInt(createRandomString(CODE_PATTERN, CODE_LENGTH));
     }
+    */
 
     /**
      * Возвращает артикль товара.
