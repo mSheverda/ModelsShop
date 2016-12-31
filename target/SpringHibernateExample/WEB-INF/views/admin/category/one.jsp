@@ -14,7 +14,7 @@
 
     <div class="grow">
         <div class="container">
-            <h2>КАТЕГОРИЯ ${category.title}</h2>
+            <h2>${category.title}</h2>
         </div>
     </div>
 

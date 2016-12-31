@@ -91,20 +91,20 @@
 					</div>
 					<div class="col-md2">
 						<div class="col-md-6 men1">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/t3.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[2].photo.photoLinkShort}" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
-												<span>Самолеты</span>	
+												<span>${categories[2].title}</span>
 											</h3>
 										</div>
 							</a>
 							
 						</div>
 						<div class="col-md-6 men2">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/t4.jpg" alt="">
+							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[3].photo.photoLinkShort}" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
-												<span>Корабли</span>	
+												<span>${categories[3].title}</span>
 											</h3>
 										</div>
 							</a>
