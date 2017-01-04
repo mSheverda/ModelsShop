@@ -22,7 +22,9 @@ public interface ShoppingCartDAO {
     /**
      * Удаляет торговую позицию из корзины.
      */
-    void removeSalePosition(SalePosition salePosition);
+    //void removeSalePosition(SalePosition salePosition);
+
+    void removeSalePosition(long id);
 
     /**
      * Очищает корзину. Удаляет все торговые позиции в корзине.
@@ -43,4 +45,5 @@ public interface ShoppingCartDAO {
      * Возвращает цену корзины - цена всех торговых позиций.
      */
     double getPrice();
+
 }

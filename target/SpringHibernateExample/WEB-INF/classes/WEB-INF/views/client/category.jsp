@@ -5,7 +5,7 @@
 
     <html>
     <head>
-<title>${category.title} || Models Shop</title>
+<title>${category.title}</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../../../resources/js/jquery.min.js"></script>
@@ -71,11 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="clearfix"> </div>
 		</div>
-
-
-
-                   
-		</div>			
+</div>
 		
 		
 		<div class="clearfix"> </div>

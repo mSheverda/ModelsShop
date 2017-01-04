@@ -67,10 +67,11 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
      */
     @Override
     @Transactional
-    public void remove(SalePosition salePosition) {
-        if (salePosition != null) {
-            this.shoppingCartDAO.removeSalePosition(salePosition);
-        }
+    public void remove(long id){ //(SalePosition salePosition) {
+        //if (id != null)
+       // {
+            this.shoppingCartDAO.removeSalePosition(id);
+       // }
     }
 
     /**

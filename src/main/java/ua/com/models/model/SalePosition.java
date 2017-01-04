@@ -103,7 +103,7 @@ public class SalePosition extends Model {
     }
 
     /**
-     * Возвращает номер торговой позиции.
+     * Возвращает количество товаров в торговой позиции.
      */
     public int getNumber() {
         return this.number;

@@ -1,11 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <html>
 <head>
-  <title>${category.title} || Models Shop</title>
+  <title>Все модели</title>
   <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="../../../resources/js/jquery.min.js"></script>
@@ -37,34 +37,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <h2>Все модели</h2>
   </div>
 </div>
+
 <div class="container">
-
-
   <c:if test="${fn:length(products) eq 0}">
     <span class="home-block-name color-red"> - список пуст!</span>
   </c:if>
-  <div class="grid-in">
+ <div class="grid-in">
+
     <c:if test="${fn:length(products) gt 0}">
-    <c:forEach items="${products}" var="product">
-    <div class="col-md-3 grid-top simpleCart_shelfItem">
-      <a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
+      <c:forEach items="${products}" var="product">
+        <div class="col-md-3 grid-top simpleCart_shelfItem">
+          <a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 
-      </a>
-      <p><a href="${product.url}">${product.title}</a></p>
+          </a>
+          <p><a href="product_${product.url}">${product.title}</a></p>
 
-      <form action="cart_add" method=post>
-        <input type=hidden name="id" value="${product.id}">
-        <p class="text" title="Добавить ${product.title} в корзину">
-          <fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
-        </p>
-      </form>
-    </div>
+          <form action="cart_add" method=post>
+            <input type=hidden name="id" value="${product.id}">
+            <p class="text" title="Добавить ${product.title} в корзину">
+              <fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
+            </p>
+          </form>
+
+        </div>
+      </c:forEach>
+    </c:if>
+
+
+    <div class="clearfix"> </div>
   </div>
-  </c:forEach>
-  </c:if>
-  <br/>
-  <br/>
 </div>
+
+
 
 <div class="footer w3layouts">
   <div class="container">

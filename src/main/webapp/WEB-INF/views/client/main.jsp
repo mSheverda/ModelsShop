@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-md2">
 						<div class="col-md-6 men1">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[2].photo.photoLinkShort}" alt="">
+							<a href="category_${categories[2].url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[2].photo.photoLinkShort}" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
 												<span>${categories[2].title}</span>
@@ -101,7 +101,7 @@
 							
 						</div>
 						<div class="col-md-6 men2">
-							<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[3].photo.photoLinkShort}" alt="">
+							<a href="category_${categories[3].url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[3].photo.photoLinkShort}" alt="">
 									<div class="b-wrapper">
 											<h3 class="b-animate b-from-top top-in2   b-delay03 ">
 												<span>${categories[3].title}</span>

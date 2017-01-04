@@ -19,12 +19,12 @@ import java.util.List;
 @Service("productService")
 public class ProductServiceImpl extends MainServiceImpl<Product> implements ProductService {
     /**
-     * Реализация интерфейса {@link ProductDAO} для работы с товаров базой данных.
+     * Реализация интерфейса ProductDAO для работы с товаров базой данных.
      */
     private final ProductDAO productDAO;
 
     /**
-     * Реализация интерфейса {@link CategoryDAO} для работы с категорий базой данных.
+     * Реализация интерфейса CategoryDAO для работы с категорий базой данных.
      */
     private final CategoryDAO categoryDAO;
 

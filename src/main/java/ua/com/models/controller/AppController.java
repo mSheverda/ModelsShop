@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-
 public class AppController {
     /**
      * Объект сервиса для работы с товарами.
@@ -49,6 +48,8 @@ public class AppController {
      */
     private final RoleService roleService;
 
+    private final SalePositionService salePositionService;
+
     /**
      * Конструктор для инициализации основных переменных контроллера главных страниц сайта.
      * Помечен аннотацией @Autowired, которая позволит Spring автоматически инициализировать объекты.
@@ -56,13 +57,14 @@ public class AppController {
     @Autowired
     public AppController(ProductService productService, CategoryService categoryService,
                          ShoppingCartService shoppingCartService, OrderService orderService,
-                         StatusService statusService, RoleService roleService) {
+                         StatusService statusService, RoleService roleService, SalePositionService salePositionService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.shoppingCartService = shoppingCartService;
         this.orderService = orderService;
         this.statusService = statusService;
         this.roleService = roleService;
+        this.salePositionService = salePositionService;
     }
 
     /**
@@ -197,6 +199,14 @@ public class AppController {
         return modelAndView;
     }
 
+    @RequestMapping(value = "/delete_saleposition_{id}", method = RequestMethod.GET)
+    public ModelAndView deleteSalePosition(@PathVariable(value = "id") long id, ModelAndView modelAndView) {
+        //this.shoppingCartService.getSalePositions().remove(id); //.remove(id);
+        this.shoppingCartService.remove(id);
+        modelAndView.setViewName("redirect:/cart");
+        return modelAndView;
+    }
+
     /**
      * Оформляет и сохраняет заказ клиента, возвращает страницу "client/checkout".
      * Если корзина пуста, по перенаправляет на главную страницу.
@@ -256,5 +266,4 @@ public class AppController {
         modelAndView.setViewName("client/products");
         return modelAndView;
     }
-
 }

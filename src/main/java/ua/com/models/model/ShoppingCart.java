@@ -88,14 +88,18 @@ public class ShoppingCart implements Serializable {
     /**
      * Удаляет торговую позицию из корзины.
      */
-    public void removeSalePosition(SalePosition salePosition) {
+    public void removeSalePosition(long id
+            //SalePosition salePosition
+    ) {
+        SalePosition salePosition = this.salePositions.get((int)id);
         this.salePositions.remove(salePosition);
+        //.remove(salePosition);
     }
 
     /**
      * Удаляет список торговых позицый из корзины.
      */
-    public void removeSalePositions(List<SalePosition> salePositions) {
+    public void removeSalePositions(List<SalePosition> salePositions ) {
         this.salePositions.removeAll(salePositions);
     }
 
@@ -142,4 +146,6 @@ public class ShoppingCart implements Serializable {
         }
         return size;
     }
+
+
 }
