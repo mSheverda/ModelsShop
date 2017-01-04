@@ -22,9 +22,14 @@ public interface ShoppingCartDAO {
     /**
      * Удаляет торговую позицию из корзины.
      */
-    //void removeSalePosition(SalePosition salePosition);
 
     void removeSalePosition(long id);
+
+    /**
+     * Достает торговую позицию из корзины.
+     */
+
+    SalePosition getSalePosition(long id);
 
     /**
      * Очищает корзину. Удаляет все торговые позиции в корзине.

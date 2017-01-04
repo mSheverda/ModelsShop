@@ -69,6 +69,15 @@
 
 								<div class="cart-header">
 									<div class="close1">
+
+										<form enctype="multipart/form-data" action="update_quantity_${loop.index}" method="post">
+										<h4>Кол-во</h4>
+
+										<input size="15" align="center" class="input-order" type="text" name="quantity" pattern="[0-9]{1,2}"  value="${position.number}"
+											   placeholder="Введите количество товара" maxlength="6" required/>
+
+											<button class="btn btn-success" type="submit">ОК</button>
+										</form>
 										<a href="delete_saleposition_${loop.index}"
 										   title="Удалить позицию ${position.product.title}">
 											<button class="btn btn-danger" type="submit">Удалить</button>

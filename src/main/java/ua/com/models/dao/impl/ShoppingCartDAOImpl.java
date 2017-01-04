@@ -49,12 +49,16 @@ public class ShoppingCartDAOImpl implements ShoppingCartDAO {
      * Удаляет торговую позицию из корзины.
      */
     @Override
-    public void removeSalePosition(long id //SalePosition salePosition
-    )
+    public void removeSalePosition(long id)
     {
         this.shoppingCart.removeSalePosition(id);
     }
 
+    @Override
+    public SalePosition getSalePosition(long id)
+    {
+        return this.shoppingCart.getSalePosition(id);
+    }
     /**
      * Очищает корзину. Удаляет все торговые позиции в корзине.
      */

@@ -90,7 +90,7 @@
                                         </a>
                                         <a href="delete_user_${user.id}"
                                            title="Удалить информацию о ${user.name}">
-                                            <button class="btn btn-danger btn-mg" type="submit">Удалить</button>
+                                           <button class="btn btn-danger btn-mg" type="submit">Удалить</button>
                                         </a>
                                     </td>
                                 </tr>

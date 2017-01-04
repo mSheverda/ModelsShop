@@ -29,7 +29,12 @@ public interface ShoppingCartService {
      * Удаляет торговую позицию из корзины.
      */
 
-    void remove(long id);  //(SalePosition salePosition);
+    void remove(long id);
+
+    /**
+     * Возвращает торговую позицию из корзины.
+     */
+    SalePosition get(long id);
 
     /**
      * Очищает корзину. Удаляет все торговые позиции в корзине.

@@ -86,14 +86,20 @@ public class ShoppingCart implements Serializable {
     }
 
     /**
+    * Возвращает торговую позицию из корзины.
+    */
+
+    public SalePosition getSalePosition(long id) {
+        SalePosition salePosition = this.salePositions.get((int)id);
+        return salePosition;
+    }
+
+    /**
      * Удаляет торговую позицию из корзины.
      */
-    public void removeSalePosition(long id
-            //SalePosition salePosition
-    ) {
-        SalePosition salePosition = this.salePositions.get((int)id);
+    public void removeSalePosition(long id) {
+        SalePosition salePosition = getSalePosition(id); //this.salePositions.get((int)id);
         this.salePositions.remove(salePosition);
-        //.remove(salePosition);
     }
 
     /**

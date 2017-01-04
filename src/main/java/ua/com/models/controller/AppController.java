@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
@@ -201,7 +202,6 @@ public class AppController {
 
     @RequestMapping(value = "/delete_saleposition_{id}", method = RequestMethod.GET)
     public ModelAndView deleteSalePosition(@PathVariable(value = "id") long id, ModelAndView modelAndView) {
-        //this.shoppingCartService.getSalePositions().remove(id); //.remove(id);
         this.shoppingCartService.remove(id);
         modelAndView.setViewName("redirect:/cart");
         return modelAndView;
@@ -264,6 +264,18 @@ public class AppController {
     public ModelAndView viewResults(ModelAndView modelAndView) {
 
         modelAndView.setViewName("client/products");
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "/update_quantity_{id}", method = RequestMethod.POST)
+    public ModelAndView saveProduct(@PathVariable(value = "id") long id,
+                                    @RequestParam(value = "quantity") int quantity,
+                                    ModelAndView modelAndView)
+    {
+        SalePosition salePosition = this.shoppingCartService.get(id);
+        salePosition.setNumber(quantity);
+        modelAndView.setViewName("redirect:/cart");
+
         return modelAndView;
     }
 }

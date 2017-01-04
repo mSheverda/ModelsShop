@@ -53,8 +53,6 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 
     /**
      * Возвращает список всех торговых позиций в корзине. Режим только для чтения.
-     *
-     * @return Объект типа {@link List} - список торговых позиций.
      */
     @Override
     @Transactional(readOnly = true)
@@ -63,15 +61,21 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
     }
 
     /**
+     * Возвращает торговую позицию из корзины.
+     */
+    @Override
+    @Transactional
+    public SalePosition get(long id){
+       return this.shoppingCartDAO.getSalePosition(id);
+    }
+
+    /**
      * Удаляет торговую позицию из корзины.
      */
     @Override
     @Transactional
-    public void remove(long id){ //(SalePosition salePosition) {
-        //if (id != null)
-       // {
-            this.shoppingCartDAO.removeSalePosition(id);
-       // }
+    public void remove(long id){
+        this.shoppingCartDAO.removeSalePosition(id);
     }
 
     /**
