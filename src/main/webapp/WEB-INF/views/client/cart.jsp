@@ -47,12 +47,15 @@
 			<div class="container">
 				<div class="row section-name text-shadow color-brown">
 					<b>
-
+<br/>
+						<br/>
 						<!-- EMPTY CART -->
 						<c:if test="${fn:length(sale_positions) eq 0}">
 							<h2>Cписок пуст!</h2>
 						</c:if>
-					</b>
+						<br/>
+						<br/>
+					</br>
 				</div>
 			</div>
 
@@ -70,11 +73,10 @@
 								<div class="cart-header">
 									<div class="close1">
 
-										<form enctype="multipart/form-data" action="update_quantity_${loop.index}" method="post">
-										<h4>Кол-во</h4>
-
-										<input size="15" align="center" class="input-order" type="text" name="quantity" pattern="[0-9]{1,2}"  value="${position.number}"
-											   placeholder="Введите количество товара" maxlength="6" required/>
+										<h5>Кол-во</h5>
+										<form action="update_quantity_${loop.index}" method="post">
+										<input type="text" size="5" style="text-align:right;" name="quantity" pattern="[0-9]{1,2}"  value="${position.number}"
+											   placeholder="00" maxlength="6" required/>
 
 											<button class="btn btn-success" type="submit">ОК</button>
 										</form>
@@ -97,8 +99,7 @@
 												</a>
 											</h2>
 											<h3>
-													${position.product.article}
-
+												Артикул: ${position.product.article}
 											</h3>
 
 											<h2>	<fmt:formatNumber type="number" value="${position.product.price}"/> грн </h2>
@@ -164,37 +165,8 @@
 	</section>
 </div>
 
-<!-- FOOTER -->
-<div class="footer w3layouts">
-	<div class="container">
-		<div class="footer-top-at w3">
-
-			<div class="col-md-3 amet-sed w3l">
-				<h4>ИНФОРМАЦИЯ</h4>
-				<ul class="nav-bottom">
-					<li><a href="#">Оплата</a></li>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="contact.html">Контакты</a></li>
-				</ul>
-			</div>
-			<div class="col-md-3 amet-sed w3ls">
-				<h4>КАТЕГОРИИ</h4>
-				<ul class="nav-bottom">
-					<li><a href="#">Танки</a></li>
-
-				</ul>
-
-			</div>
-			<div class="col-md-3 amet-sed agileits-w3layouts">
-				<h4>ПОЗВОНИТЕ НАМ</h4>
-				<p>Офис :  +38 067 224 19 25</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="footer-class w3-agile">
-	</div>
-</div>
+<!-- Footer -->
+<jsp:include page="/WEB-INF/views/client/template/footer.jsp"/>
 <!-- Scripts -->
 <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="resources/bootstrap/js/jquery.appear.js" type="text/javascript"></script>

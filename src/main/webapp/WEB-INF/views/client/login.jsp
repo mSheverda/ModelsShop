@@ -78,37 +78,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 
 </div>
-  <!-- FOOTER -->
-<div class="footer w3layouts">
-				<div class="container">
-			<div class="footer-top-at w3">
-			
-				<div class="col-md-3 amet-sed w3l">
-				<h4>ИНФОРМАЦИЯ</h4>
-				<ul class="nav-bottom">
-						<li><a href="#">Оплата</a></li>
-						<li><a href="#">Доставка</a></li>
-						<li><a href="contact.html">Контакты</a></li>						
-					</ul>	
-				</div>
-				<div class="col-md-3 amet-sed w3ls">
-					<h4>КАТЕГОРИИ</h4>
-					<ul class="nav-bottom">
-						<li><a href="#">Танки</a></li>
-						
-					</ul>
-					
-				</div>
-				<div class="col-md-3 amet-sed agileits-w3layouts">
-				<h4>ПОЗВОНИТЕ НАМ</h4>					
-					<p>Офис :  +38 067 224 19 25</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="footer-class w3-agile">		
-		</div>
-		</div> 
+  	<!-- Footer -->
+	<jsp:include page="/WEB-INF/views/client/template/footer.jsp"/>
 
     <!-- Scripts -->
     <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>

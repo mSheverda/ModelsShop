@@ -42,8 +42,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 		
 	<c:if test="${fn:length(products) eq 0}">
-                                <span class="home-block-name color-red"> - список пуст!</span>
-                            </c:if>
+		<br/>
+		<br/>
+		<h2>Cписок пуст!</h2>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</c:if>
 
 
 
@@ -55,11 +58,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 
 						</a>
-						<p><a href="product_${product.url}">${product.title}</a></p>
+						<p style="text-align:center><a href="product_${product.url}">${product.title}</a></p>
 
 						<form action="cart_add" method=post>
 							<input type=hidden name="id" value="${product.id}">
-							<p class="text" title="Добавить ${product.title} в корзину">
+							<p class="text" style="text-align:center title="Добавить ${product.title} в корзину">
 								<fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
 							</p>
 						</form>
@@ -74,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 		
 		
-		<div class="clearfix"> </div>
+<div class="clearfix"> </div>
 <div class="container">
 	<div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">	
                <br/>			 
@@ -84,7 +87,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<br/>			
 		<br/>			
 </div>	
-</div>	    
+</div>
+
 <div class="footer w3layouts">
 				<div class="container">
 			<div class="footer-top-at w3">

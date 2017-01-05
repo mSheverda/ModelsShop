@@ -146,8 +146,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 		</div>
 		</div>
-		
-		
+
+<div class="container">
+	<div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">
+		<br/>
+		<h4 class="text-all-products text-shadow">
+			<a href="all_products" title="Перейти ко всем товарам">Весь ассортимент моделей</a>
+		</h4>
+		<br/>
+		<br/>
+	</div>
+</div>
 		
   </div>
 

@@ -191,17 +191,7 @@ i.facebok {
 i.facebok:hover{
 	opacity:0.5;
 }
-/*-- w3layouts --*/
-i.twiter {
-    width: 34px;
-    height: 34px;
-    background: url(../images/social.png)no-repeat -46px -7px;
-    float: left;
-    vertical-align: middle;
-}
-i.twiter:hover{
-	opacity:0.5;
-}
+
 i.goog {
     width: 34px;
     height: 34px;
@@ -297,7 +287,7 @@ i.inst:hover{
   display: block;
   float: left;
   }
-  /*-- w3layouts --*/
+
 .rslides img {
   display: block;
   height: auto;
@@ -384,7 +374,7 @@ height: 35px;
 	background: #fff;
 }
 /*--content-top--*/
-/*-- w3layouts --*/
+
 .cont {
     position: relative;
     min-height: 66em;
@@ -504,7 +494,7 @@ height: 35px;
 .b-animate-go{
 	text-decoration:none;
 }
-/*-- w3layouts --*/
+
 .b-animate{
 	transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -609,7 +599,7 @@ height: 35px;
 }
 	
 /*--//content--*/
-/*-- w3layouts --*/
+
 /*--footer--*/
 .footer{
 	background:#141414;
@@ -693,7 +683,7 @@ ul.social{
 ul.social li{
 	display: inline-block;	
 }
-/*-- w3layouts --*/
+
 ul.social li i{
 	background: url(../images/img-sprite.png)no-repeat -9px -14px ;
   width: 24px;
@@ -796,7 +786,7 @@ ul.social li i:hover{
 .address-more p a:hover{
 	color: #8ce78a;
 }
-/*-- w3layouts --*/
+
 /*--//contact--*/
 /*--blog--*/
 .grid_3{
@@ -904,7 +894,7 @@ p.m_11 {
   font-weight: 600;
     margin: 0 0 1em;
 }
-/*-- w3layouts --*/
+
 /*--//blog--*/
 /*--product--*/
 .tags ul li {
@@ -1000,7 +990,7 @@ ul.kid-menu{
 	
 	text-indent: 1.2em;
 }
-/*-- w3layouts --*/
+
 .menu ul li a:hover{
 	color:#EF5F21;
 }

@@ -143,53 +143,28 @@
 					
 					</div>					
 					</c:forEach>
-</c:if>	
-					
-					
+</c:if>
 					<div class="clearfix"> </div>
 				</div>
-			</section>	
-			</div>
-			
-		</div>
-	
-	</div>
-	
+			</section>
 
-   
-    <!-- Scripts -->
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	
-</div>
-<div class="footer w3layouts">
-				<div class="container">
-			<div class="footer-top-at w3">
-			
-				<div class="col-md-3 amet-sed w3l">
-				<h4>ИНФОРМАЦИЯ</h4>
-				<ul class="nav-bottom">
-						<li><a href="#">Оплата</a></li>
-						<li><a href="#">Доставка</a></li>
-						<li><a href="contact.html">Контакты</a></li>						
-					</ul>	
-				</div>
-				<div class="col-md-3 amet-sed w3ls">
-					<h4>КАТЕГОРИИ</h4>
-					<ul class="nav-bottom">
-						<li><a href="#">Танки</a></li>
-						
-					</ul>
-					
-				</div>
-				<div class="col-md-3 amet-sed agileits-w3layouts">
-				<h4>ПОЗВОНИТЕ НАМ</h4>					
-					<p>Офис :  +38 067 224 19 25</p>
-				</div>
-				<div class="clearfix"> </div>
+					<div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 col-xl-4 col-xl-offset-4 text-center">
+						<br/>
+						<h4 class="text-all-products text-shadow">
+							<a href="all_products" title="Перейти ко всем товарам">Весь ассортимент моделей</a>
+						</h4>
+						<br/>
+
+					</div>
+
+
 			</div>
 		</div>
-		<div class="footer-class w3-agile">		
-		</div>
-		</div>
+	</div>
+	<!-- Scripts -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+</div>
+<!-- Footer -->
+<jsp:include page="/WEB-INF/views/client/template/footer.jsp"/>
 </body>
 </html>

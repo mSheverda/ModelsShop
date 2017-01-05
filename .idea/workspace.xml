@@ -2,19 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b40c8-d7d8-462d-9ad5-d06a44f5ff01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/service/ShoppingCartService.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/service/ShoppingCartService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/service/ShoppingCartService.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/service/ShoppingCartService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/dao/impl/ShoppingCartDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/dao/impl/ShoppingCartDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/service/ShoppingCartService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/service/ShoppingCartService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ShoppingCartServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ShoppingCartServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/all.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/all.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/all.jsp" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\WEB-INF\views\client\registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\WEB-INF\views\client\success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\views\client\registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\views\client\success.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/controller/AppController.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/controller/AppController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/controller/AppController.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/controller/AppController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/model/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/model/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/model/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/model/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/dao/ShoppingCartDAO.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/dao/ShoppingCartDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/dao/ShoppingCartDAO.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/dao/ShoppingCartDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/dao/impl/ShoppingCartDAOImpl.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/dao/impl/ShoppingCartDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/dao/impl/ShoppingCartDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/dao/impl/ShoppingCartDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/service/impl/ShoppingCartServiceImpl.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/service/impl/ShoppingCartServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/service/impl/ShoppingCartServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/service/impl/ShoppingCartServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/cart.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/css/style.css" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/resources/css/style.css" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/css/style.css" afterPath="$PROJECT_DIR$/target/classes/resources/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringHibernateExample.iws" />
@@ -39,71 +66,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java">
+      <file leaf-file-name="products.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.62069">
-              <caret line="269" column="50" selection-start-line="269" selection-start-column="30" selection-end-line="269" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.63559324">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/service/ShoppingCartService.java">
+      <file leaf-file-name="contacts.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.058824">
+              <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ShoppingCartServiceImpl.java">
+      <file leaf-file-name="checkout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.068966">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-              <folding>
-                <element signature="e#1920#1921#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2109#2110#0" expanded="true" />
-                <element signature="e#2168#2169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingCartDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="16" />
+            <state vertical-scroll-proportion="-3.6470587">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/dao/impl/ShoppingCartDAOImpl.java">
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="23" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="23" />
-              <folding>
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-2.2058823">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.147059">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7798165">
-              <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+            <state vertical-scroll-proportion="-3.6470587">
+              <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0327868">
+              <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="162" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.0491805">
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="167" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.382353">
+              <caret line="81" column="67" selection-start-line="80" selection-start-column="2" selection-end-line="81" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -112,38 +159,8 @@
       <file leaf-file-name="category.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7352941">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.029411">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/edit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.088235">
-              <caret line="29" column="94" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="22.058823">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.9344263">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,8 +174,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -173,12 +190,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/products_in_the_cart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_navbar.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminProductsController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/UserServiceImpl.java" />
@@ -201,21 +213,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/one.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/one.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java" />
@@ -223,7 +229,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/ShoppingCartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ShoppingCartServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
       </list>
     </option>
   </component>
@@ -1516,7 +1533,7 @@
       <workItem from="1482998374738" duration="1234000" />
       <workItem from="1483085347313" duration="76363000" />
       <workItem from="1483451119989" duration="3299000" />
-      <workItem from="1483456609505" duration="36450000" />
+      <workItem from="1483456609505" duration="46619000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1480517538494</created>
@@ -1650,15 +1667,21 @@
       <option name="project" value="LOCAL" />
       <updated>1483546951667</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add possibility to change quantity of each model's type in cart">
+      <created>1483565556597</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1483565556597</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="709594000" />
+    <option name="totallyTimeSpent" value="719763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="927" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="927" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1669,11 +1692,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1904762" sideWeight="0.6171875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31501833" sideWeight="0.6171875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1694,7 +1717,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30168778" sideWeight="0.35416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41877636" sideWeight="0.3828125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1705,15 +1728,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42735043" sideWeight="0.83020836" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43589744" sideWeight="0.64166665" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4344569" sideWeight="0.615625" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30168778" sideWeight="0.6458333" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2796093" sideWeight="0.6171875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23443224" sideWeight="0.47083333" order="1" side_tool="false" content_ui="tabs" />
@@ -1752,7 +1775,9 @@
     <MESSAGE value="Add products to site and fiz bug with article" />
     <MESSAGE value="Add products to site" />
     <MESSAGE value="Add some methods to client controller and change client views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some methods to client controller and change client views" />
+    <MESSAGE value="Add possibility to change quantity of each model's type in cart" />
+    <MESSAGE value="Change and beautify views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change and beautify views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1785,60 +1810,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/dao/SalePositionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4590163">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1890,22 +1865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.852942">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6764708">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1963,8 +1922,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
           <folding>
-            <element signature="e#4140#4141#0" expanded="true" />
-            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4140#4141#0" expanded="false" />
+            <element signature="e#4188#4189#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2128,10 +2087,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="23" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="23" />
           <folding>
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="false" />
+            <element signature="e#1449#1450#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2149,10 +2108,10 @@
         <state vertical-scroll-proportion="-11.068966">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2109#2110#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="false" />
+            <element signature="e#1982#1983#0" expanded="false" />
+            <element signature="e#2109#2110#0" expanded="false" />
+            <element signature="e#2168#2169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2173,14 +2132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="11.029411">
@@ -2189,18 +2140,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.62069">
-          <caret line="269" column="50" selection-start-line="269" selection-start-column="30" selection-end-line="269" selection-end-column="50" />
+        <state vertical-scroll-proportion="-7.827586">
+          <caret line="119" column="42" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2058823">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7798165">
-          <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+        <state vertical-scroll-proportion="-3.6470587">
+          <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9344263">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6470587">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.058824">
+          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.382353">
+          <caret line="81" column="67" selection-start-line="80" selection-start-column="2" selection-end-line="81" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0491805">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="167" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0327868">
+          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="162" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63559324">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>

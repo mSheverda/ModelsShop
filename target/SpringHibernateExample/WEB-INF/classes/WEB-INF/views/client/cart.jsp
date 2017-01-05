@@ -47,12 +47,15 @@
 			<div class="container">
 				<div class="row section-name text-shadow color-brown">
 					<b>
-
+<br/>
+						<br/>
 						<!-- EMPTY CART -->
 						<c:if test="${fn:length(sale_positions) eq 0}">
 							<h2>Cписок пуст!</h2>
 						</c:if>
-					</b>
+						<br/>
+						<br/>
+					</br>
 				</div>
 			</div>
 
@@ -69,6 +72,14 @@
 
 								<div class="cart-header">
 									<div class="close1">
+
+										<h5>Кол-во</h5>
+										<form action="update_quantity_${loop.index}" method="post">
+										<input type="text" size="5" style="text-align:right;" name="quantity" pattern="[0-9]{1,2}"  value="${position.number}"
+											   placeholder="00" maxlength="6" required/>
+
+											<button class="btn btn-success" type="submit">ОК</button>
+										</form>
 										<a href="delete_saleposition_${loop.index}"
 										   title="Удалить позицию ${position.product.title}">
 											<button class="btn btn-danger" type="submit">Удалить</button>
@@ -88,8 +99,7 @@
 												</a>
 											</h2>
 											<h3>
-													${position.product.article}
-
+												Артикул: ${position.product.article}
 											</h3>
 
 											<h2>	<fmt:formatNumber type="number" value="${position.product.price}"/> грн </h2>

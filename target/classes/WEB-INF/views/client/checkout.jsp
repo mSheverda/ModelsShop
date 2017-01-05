@@ -4,7 +4,7 @@
   <html>
   <head>
     	
-<title>Оформление заказа || Models Shop</title>
+<title>Оформление заказа</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../../../resources/js/jquery.min.js"></script>
