@@ -8,27 +8,7 @@
   <html>
   <head>
     <title>${product.title}</title>
-<link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../../../resources/js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="../../../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--fonts-->
-<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
-<!-- start menu -->
-<link href="../../../resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="../../../resources/js/memenu.js"></script>
-<script>$(document).ready(function(){$(".memenu").memenu();});</script>
-<script src="../../../resources/js/simpleCart.min.js"> </script>
-<script src="../../../resources/js/imagezoom.js"></script>
+	  <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
   </head>
   <body>
 
@@ -67,12 +47,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>	
 					<div class="col-md-5 single-top-in simpleCart_shelfItem">
 						
-				<h5>Артикул: ${product.article}</h5>
-            
+
+						<p fontSize: 30px><b>Артикул:</b> ${product.article}</p>
               
 			<br/>
-			<h4>Характеристики</h4>
-			
+		<p class="prod-desc"><b>Характеристики</b></p>
 		
 <table class="my-table">
 <tr>
@@ -95,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             	<br/>		
 			<c:if test="${(product.description ne null) and (product.description ne '')}">
               <br>
-              <p fontSize: 25px><b>Описание</b></p>
+				<p class="prod-desc"><b>Описание</b></p>
               <p fontSize: 25px>${product.description}</p>
             </c:if>
 			<br/>

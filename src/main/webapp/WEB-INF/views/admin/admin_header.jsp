@@ -6,6 +6,7 @@
 <html>
 
 <head>
+    <title>Для администратора</title>
     <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
 </head>
 
@@ -28,7 +29,6 @@
         </div>
     </div>
 
-
     <div class="container">
         <div class="head-top">
             <div class="logo">
@@ -36,20 +36,16 @@
             </div>
             <div class=" h_menu4">
                 <ul class="memenu skyblue">
-                    <li><a class="color4" href="/admin/orders">Заказы</a></li>
-                    <li><a class="color4" href="/admin/products">Товары</a></li>
-                    <li><a class="color4" href="/admin/categories">Категории</a></li>
-                    <li><a class="color4" href="/admin/users">Клиенты</a></li>
-
+                    <li><a class="color4" href="/admin/orders"> <span class="head-ref">Заказы</span></a></li>
+                    <li><a class="color4" href="/admin/products"> <span class="head-ref">Товары</span></a></li>
+                    <li><a class="color4" href="/admin/categories"><span class="head-ref">Категории</span></a></li>
+                    <li><a class="color4" href="/admin/users"><span class="head-ref">Клиенты</span></a></li>
                 </ul>
-
             </div>
             <div class="clearfix"> </div>
-
         </div>
     </div>
 </div>
-
 
 </body>
 </html>

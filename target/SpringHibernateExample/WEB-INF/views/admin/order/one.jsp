@@ -21,7 +21,7 @@
     </div>
 
     <!-- Order -->
-    <div class="container-fluid width">
+    <div class="container">
 
             <div class="row admin-page">
 
@@ -128,7 +128,7 @@
                                         <c:forEach items="${sale_positions}" var="position">
                                             <a href="../product_${position.product.url}"
                                                title="Перейти к товару ${position.product.title}">
-                                                    ${position.product.title}</a>, № ${position.product.id},
+                                                    ${position.product.title}</a>,
                                             <br>${position.number} x ${position.product.price} грн
                                             <br>--------------<br>
                                         </c:forEach>

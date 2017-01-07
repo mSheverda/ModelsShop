@@ -2,34 +2,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
 <html>
 <head>
 	<title>Корзина</title>
-	<link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="../../../resources/js/jquery.min.js"></script>
-	<!-- Custom Theme files -->
-	<!--theme-style-->
-	<link href="../../../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<!--//theme-style-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!--fonts-->
-	<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
-	<!-- start menu -->
-	<link href="../../../resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="../../../resources/js/memenu.js"></script>
-	<script>$(document).ready(function(){$(".memenu").memenu();});</script>
-	<script src="../../../resources/js/simpleCart.min.js"> </script>
-
+	<jsp:include page="/WEB-INF/views/admin/head.jsp"/>
 </head>
-
 <body>
-
-
 <!--header-->
 <jsp:include page="/WEB-INF/views/client/template/home_header.jsp"/>
 
@@ -47,14 +25,12 @@
 			<div class="container">
 				<div class="row section-name text-shadow color-brown">
 					<b>
-<br/>
-						<br/>
 						<!-- EMPTY CART -->
 						<c:if test="${fn:length(sale_positions) eq 0}">
-							<h2>Cписок пуст!</h2>
+						<br/><br/>
+						<h2>Cписок пуст!</h2>
+						<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 						</c:if>
-						<br/>
-						<br/>
 					</br>
 				</div>
 			</div>
@@ -150,15 +126,12 @@
 							<a class="order" href="cart_clear">
 								Очистить корзину
 							</a>
-
 						</div>
-
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-
-
 			</c:if>
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		</div>
 	</section>
 </div>

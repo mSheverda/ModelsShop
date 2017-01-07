@@ -30,6 +30,7 @@
                         <b>
 
                             <c:if test="${fn:length(products) eq 0}">
+                                <br/><br/>
                                 <h2>Cписок пуст!</h2>
                                 <br>
 
@@ -37,7 +38,7 @@
                                     <button class="btn btn-success" type="submit">Добавить</button>
                                 </a>
                             </c:if>
-                        </b>
+                        </br>
                     </div>
                 </div>
 
@@ -63,7 +64,7 @@
                             <c:forEach items="${products}" var="product">
                                 <tr>
                                     <td>
-                                        <a href="../product_${product.url}"
+                                        <a href="view_product_${product.url}"
                                            title="Перейти к товару ${product.title}">
                                                 ${product.title}</a>
                                     </td>

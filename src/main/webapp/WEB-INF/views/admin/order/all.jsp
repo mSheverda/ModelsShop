@@ -29,6 +29,7 @@
                         <b>
 
                             <c:if test="${fn:length(orders) eq 0}">
+                                <br/><br/>
                                 <h2>Cписок пуст!</h2>
                             </c:if>
                         </b>

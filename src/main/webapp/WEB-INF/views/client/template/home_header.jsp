@@ -55,9 +55,9 @@
             </div>
             <div class=" h_menu4">
                 <ul class="memenu skyblue">
-                    <li><a class="color4" href="home#categories">Категории</a></li>
-                    <li><a class="color4" href="home#products">Товары</a></li>
-                    <li><a class="color4" href="contacts">Контакты</a></li>
+                    <li><a class="color4"  href="home#categories"><span class="head-ref">Категории</span></a></li>
+                    <li><a class="color4" href="all_products"><span class="head-ref">Товары</span></a></li>
+                    <li><a class="color4" href="contacts"><span class="head-ref">Контакты</span></a></li>
 
                 </ul>
             </div>

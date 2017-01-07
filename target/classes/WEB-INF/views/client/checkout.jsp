@@ -1,31 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" trimDirectiveWhitespaces="true" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
   <html>
   <head>
     	
 <title>Оформление заказа</title>
-<link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../../../resources/js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="../../../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--fonts-->
-<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
-<!-- start menu -->
-<link href="../../../resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="../../../resources/js/memenu.js"></script>
-<script>$(document).ready(function(){$(".memenu").memenu();});</script>
-<script src="../../../resources/js/simpleCart.min.js"> </script>
-	
+      <jsp:include page="/WEB-INF/views/admin/head.jsp"/>
   </head>
   <body>
 
@@ -58,7 +40,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
 
         <!-- PRODUCTS IN ORDER -->
-        <jsp:include page="/WEB-INF/views/client/template/products_in_the_cart.jsp"/>
+          <div class="container">
+              <div class="row">
+
+                  <table class="table cart-table">
+                      <tr>
+                          <th>Название</th>
+                          <th>Кол.</th>
+                          <th>Категория</th>
+                          <th>Стоимость</th>
+                      </tr>
+                      <c:forEach items="${sale_positions}" var="position">
+                          <tr>
+                              <td>
+                                  <a href="product_${position.product.url}" title="Перейти к ${position.product.title}">
+                                          ${position.product.title}
+                                  </a>
+                              </td>
+                              <td>${position.number}</td>
+                              <td>
+                                  <a href="category_${position.product.category.url}"
+                                     title="Перейти к категории ${position.product.category.title}">
+                                          ${position.product.category.title}</a>
+                              </td>
+                              <td>
+                                  <fmt:formatNumber type="number" value="${position.product.price}"/> грн
+                              </td>
+                          </tr>
+                      </c:forEach>
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td style="text-align: right;"><strong>Итого:</strong></td>
+                          <td><b><fmt:formatNumber type="number" value="${price_of_cart}"/> грн</b></td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
     </section>
   </div>

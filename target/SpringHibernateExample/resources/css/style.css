@@ -2254,6 +2254,7 @@ a.cpns {
 }
 .memenu>li>a {
     padding: 8px 10px;
+
 }
 .sb-search {
     right: 250px;
@@ -2924,6 +2925,13 @@ a.item_add p.number {
 }
 
 .middle {
-
 	vertical-align: middle;
+}
+
+.head-ref {
+	font-size:25px;
+}
+
+.prod-desc {
+	font-size:18px;
 }

@@ -18,4 +18,4 @@
 <script type="text/javascript" src="../../../resources/js/memenu.js"></script>
 <script>$(document).ready(function(){$(".memenu").memenu();});</script>
 <script src="../../../resources/js/simpleCart.min.js"> </script>
-
+<link rel="shortcut icon" type="image/jpg" href="../../../resources/images/tab.jpg"/>
