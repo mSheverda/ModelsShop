@@ -56,7 +56,7 @@
                                     <input class="input-order" type="text" name="username" pattern="[A-Za-z0-9_]{5,50}"
                                            placeholder=" Введите логин, формат (A-Z, a-z, 0-9, _)"
                                            value="${user.username}"
-                                           minlength="5" maxlength="50" required>
+                                           minlength="5" maxlength="50">
                                 </td>
                             </tr>
                             <tr>
@@ -65,7 +65,7 @@
                                     <input class="input-order" type="text" name="password" pattern="[A-Za-z0-9]{6,50}"
                                            placeholder=" Введите пароль, формат (A-Z, a-z, 0-9)"
                                            value="${user.password}"
-                                           minlength="6" maxlength="50" required>
+                                           minlength="6" maxlength="50">
                                 </td>
                             </tr>
                             <tr>

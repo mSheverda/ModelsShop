@@ -17,17 +17,13 @@
     <div class="grow">
         <div class="container">
             <h2>ДОБАВИТЬ КЛИЕНТА</h2>
-
         </div>
     </div>
 
     <!-- Add user -->
     <div class="container">
-
-            <div class="row admin-page">
-
-
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
+       <div class="row admin-page">
+         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
                     <div class="clearfix"></div>
                     <form action="save_user" method="post">
                         <table class="table">

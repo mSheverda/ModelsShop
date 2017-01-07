@@ -6,7 +6,7 @@
     <html>
     <head>
       
-<title>Авторизация || Models Shop</title>
+<title>Авторизация</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../../../resources/js/jquery.min.js"></script>
@@ -62,10 +62,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <form class="form-signin" action="login"  method="post">
                         <input id="username" class="form-control" type="text" name="username"
                                pattern="[A-Za-z0-9_]{5,50}"
-                               placeholder="Введите логин, формат (A-Z, a-z, 0-9, _)" style="margin-top: 25px"
+                               placeholder="Введите логин, формат (A-Z, a-z, 0-9, _) - mSheverda" style="margin-top: 25px"
                                minlength="5" maxlength="50" autofocus required>
                         <input id="password" class="form-control" type="password" name="password"
-                               pattern="[A-Za-z0-9]{6,50}" placeholder="Введите пароль, формат (A-Z, a-z, 0-9)"
+                               pattern="[A-Za-z0-9]{6,50}" placeholder="Введите пароль, формат (A-Z, a-z, 0-9) - 987654"
                                style="margin-top: 25px" minlength="6" maxlength="50" required>
                         <button class="btn btn-success" type="submit" style="margin-top: 25px">Войти</button>
                     </form>
@@ -78,37 +78,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 
 </div>
-  <!-- FOOTER -->
-<div class="footer w3layouts">
-				<div class="container">
-			<div class="footer-top-at w3">
-			
-				<div class="col-md-3 amet-sed w3l">
-				<h4>ИНФОРМАЦИЯ</h4>
-				<ul class="nav-bottom">
-						<li><a href="#">Оплата</a></li>
-						<li><a href="#">Доставка</a></li>
-						<li><a href="contact.html">Контакты</a></li>						
-					</ul>	
-				</div>
-				<div class="col-md-3 amet-sed w3ls">
-					<h4>КАТЕГОРИИ</h4>
-					<ul class="nav-bottom">
-						<li><a href="#">Танки</a></li>
-						
-					</ul>
-					
-				</div>
-				<div class="col-md-3 amet-sed agileits-w3layouts">
-				<h4>ПОЗВОНИТЕ НАМ</h4>					
-					<p>Офис :  +38 067 224 19 25</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="footer-class w3-agile">		
-		</div>
-		</div> 
+  	<!-- Footer -->
+	<jsp:include page="/WEB-INF/views/client/template/footer.jsp"/>
 
     <!-- Scripts -->
     <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>

@@ -31,7 +31,7 @@
                         <b>
 
                             <c:if test="${fn:length(users) eq 0}">
-                                <span class="color-red"> - список пуст!</span>
+                                <h2>Cписок пуст!</h2>
                                 <br>
                                 <a href="add_user" title="Добавить нового работника">
                                     <button class="btn btn-success" type="submit">Добавить</button>
@@ -50,12 +50,10 @@
                                 <th>Имя</th>
                                 <td class="hidden-xs"><b>Телефон</b>
                                 <td>
-                                    <b>Действие</b>
-                                &nbsp;&nbsp;
+
                                     <a href="add_user" title="Добавить нового пользователя">
                                         <button class="btn btn-success" type="submit">Добавить</button>
                                     </a>
-                                &nbsp;&nbsp;
                                 <a href="delete_all_users" title="Удалить всех пользователей">
                                         <button class="btn btn-danger" type="submit">Удалить всех</button>
                                     </a>

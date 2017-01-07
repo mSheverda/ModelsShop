@@ -1,6 +1,8 @@
 package ua.com.models.model;
 
 import javax.persistence.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -89,6 +91,8 @@ public class Order extends Model {
      */
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "order", cascade = CascadeType.ALL)
     private List<SalePosition> salePositions = new ArrayList<>();
+
+
 
     /**
      * Конструктр без параметров.
@@ -198,8 +202,6 @@ public class Order extends Model {
 
     /**
      * Добавляет список торговых позиций в текущий заказ.
-     *
-     * @param salePositions Список торговых позиций, которые будут дабавлены в заказ.
      */
     public void addSalePositions(List<SalePosition> salePositions) {
         this.salePositions.addAll(salePositions);
@@ -212,8 +214,6 @@ public class Order extends Model {
 
     /**
      * Удаляет торговую позицию из текущего заказа.
-     *
-     * @param salePosition Торговая позиция, которая будет удалена из заказу.
      */
     public void removeSalePosition(SalePosition salePosition) {
         this.salePositions.remove(salePosition);
@@ -221,8 +221,6 @@ public class Order extends Model {
 
     /**
      * Удаляет список торговых позиция из текущего заказа.
-     *
-     * @param salePositions Список торговых позиция, которые будут удалены из заказа.
      */
     public void removeSalePositions(List<SalePosition> salePositions) {
         this.salePositions.removeAll(salePositions);
@@ -239,7 +237,6 @@ public class Order extends Model {
      * Конвертирует список торговых позиций текущего заказа в список
      * только для чтений и возвращает его.
      *
-     * @return Объект типа {@link List} - список торговых позиция только для чтения или пустой список.
      */
     public List<SalePosition> getSalePositions() {
         return getUnmodifiableList(this.salePositions);

@@ -123,13 +123,11 @@
 									<input class="form-control" type="text" name="user_name" placeholder=" Введите имя"
 										   minlength="2" maxlength="50" required autofocus>
 
-									<input class="form-control" class="phone input" type="text" name="user_phone" placeholder=" 000-000-00-00"
+									<input class="form-control" class="phone input" type="text" name="user_phone" pattern="380([0-9]){2}-([0-9]){3}-([0-9]){2}-([0-9]){2}" placeholder="380XX-XXX-XX-XX"
 										   required>
 
 									<input class="form-control" type="email" name="user_email" placeholder=" Введите Email"
 										   minlength="5" maxlength="50">
-
-
 									<input type="submit" class="btn btn-success" value="Оформить заказ" width="80px">
 
 								</form>

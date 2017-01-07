@@ -14,13 +14,13 @@ public abstract class Model implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    protected static final char[] CODE_PATTERN = {'A', 'L', 'E', 'X', 'C', 'F', 'E', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
+    protected static final char[] CODE_PATTERN = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
 
     protected static final int CODE_LENGTH = 6;
 
-    protected static final String DATE_PATTERN = "EEE, d MMM yyyy, HH:mm:ss";
+    protected static final String DATE_PATTERN = "dd.MM.yyyy HH:mm:ss";
 
-    protected static final String TIME_ZONE = "GMT+3";
+    protected static final String TIME_ZONE = "GMT+2";
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -27,7 +27,7 @@
                         <b>
 
                             <c:if test="${fn:length(categories) eq 0}">
-                                <span class="color-red"> - список пуст!</span>
+                                <h2>Cписок пуст!</h2>
                                 <br>
                                 <a href="add_category" title="Добавить новую категорию">
                                     <button class="btn btn-success" type="submit">Добавить</button>
@@ -44,12 +44,11 @@
                                 <th>Название</th>
                                 <td class="hidden-xs"><b>URL</b></td>
                                 <th>
-                                    Действие
-                                    &nbsp;&nbsp;
+
                                     <a href="add_category" title="Добавить новую категорию">
                                         <button class="btn btn-success" type="submit">Добавить</button>
                                     </a>
-                                    &nbsp;&nbsp;
+
                                     <a href="delete_all_categories" title="Удалить все категории">
                                         <button class="btn btn-danger" type="submit">Удалить ВСЕ</button>
                                     </a>

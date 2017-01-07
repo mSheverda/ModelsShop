@@ -30,7 +30,7 @@
                         <b>
 
                             <c:if test="${fn:length(products) eq 0}">
-                                <span class="color-red"> - список пуст!</span>
+                                <h2>Cписок пуст!</h2>
                                 <br>
 
                                 <a href="add_product" title="Добавить новый товар">
@@ -49,12 +49,11 @@
                                 <th width="40%">Название</th>
                                 <th class="hidden-xs" width="15%">Категория</th>
                                 <th width="35%">
-                                    Действие
-                                    &nbsp;&nbsp;
+
                                     <a href="add_product" title="Добавить новый товар">
                                         <button class="btn btn-success" type="submit">Добавить</button>
                                     </a>
-                                    &nbsp;&nbsp;
+
                                     <a href="delete_all_products" title="Удалить все товары">
                                         <button class="btn btn-danger" type="submit">Удалить ВСЕ</button>
                                     </a>

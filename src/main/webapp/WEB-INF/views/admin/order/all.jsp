@@ -22,15 +22,14 @@
     </div>
 
     <!-- All orders -->
-    <div class="container-fluid width">
-
+    <div class="container">
             <div class="row admin-page">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
                     <div class="row section-name text-shadow">
                         <b>
 
                             <c:if test="${fn:length(orders) eq 0}">
-                                <span class="color-red"> - список пуст!</span>
+                                <h2>Cписок пуст!</h2>
                             </c:if>
                         </b>
                     </div>
@@ -44,7 +43,6 @@
                                 <th>Статус</th>
                                 <th class="hidden-xs">Дата</th>
                                 <th>
-                                    Действие
                                     <a href="delete_all_orders" title="Удалить все заказы">
                                         <button class="btn btn-danger" type="submit">Удалить ВСЕ</button>
                                     </a>

@@ -2,12 +2,231 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542b40c8-d7d8-462d-9ad5-d06a44f5ff01" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\WEB-INF\views\client\template\products_list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\WEB-INF\views\client\template\some_products.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/main.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/main.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/main.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\images\product\resized_209x156\New Picture.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/resized_209x156/New Picture.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/resized_209x156/New Picture.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/resized_209x156/New Picture.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_10_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_10_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_10_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_10_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_10_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_10_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_10_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_10_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_9_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_9_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_9_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_9_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/car_9_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/car_9_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/car_9_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/car_9_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/category/plane.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/category/plane.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/category/plane.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/category/plane.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/plane_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/plane_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/plane_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/plane_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/category/ship.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/category/ship.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/category/ship.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/category/ship.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/ship_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/ship_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/ship_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/ship_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_6_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_6_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_6_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_6_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/product/tank_6_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/resources/images/product/tank_6_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/resources/images/product/tank_6_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources/images/product/tank_6_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/admin_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/admin_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/admin_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/contacts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/contacts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/contacts.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/template/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/template/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/template/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/template/home_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/template/home_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/template/home_header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\img\carusel\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\img\carusel\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\img\carusel\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\img\carusel\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\src\main\webapp\resources\img\carusel\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\classes\WEB-INF\views\client\template\products_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\classes\WEB-INF\views\client\template\some_products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\views\client\template\products_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\WEB-INF\views\client\template\some_products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\resources\img\carusel\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\resources\img\carusel\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\resources\img\carusel\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\resources\img\carusel\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\SpringHibernateExample\resources\img\carusel\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\classes\WEB-INF\views\client\template\products_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max\Desktop\idea_project\ModelsShop\target\classes\WEB-INF\views\client\template\some_products.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/model/Order.class" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/ua/com/models/model/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/com/models/model/Order.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/models/model/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/com/models/model/Order.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/models/model/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/add.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/add.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/add.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/category/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/category/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/order/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/order/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/product/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/product/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/category/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/category/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/order/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/order/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/product/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/product/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/category/all.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/category/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/order/all.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/order/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/product/all.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/product/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/all.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/all.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/cart.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/category.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/checkout.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/checkout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/edit.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/admin/user/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/edit.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/admin/user/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/edit.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/admin/user/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/login.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/login.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/login.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/product.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/product.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/classes/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/SpringHibernateExample/WEB-INF/views/client/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/products.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/views/client/products.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringHibernateExample.iws" />
@@ -32,102 +251,150 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="products.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.37705">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="81" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.411765">
-              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products_in_the_cart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/products_in_the_cart.jsp">
+      <file leaf-file-name="one.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.882353">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.558824">
+              <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp">
+      <file leaf-file-name="one.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/one.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-83.05882">
-              <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="6.617647">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/add.jsp">
+      <file leaf-file-name="one.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.6470585">
-              <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+            <state vertical-scroll-proportion="8.823529">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
+      <file leaf-file-name="one.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/one.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0327868">
-              <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="162" selection-end-column="63" />
+            <state vertical-scroll-proportion="-34.235294">
+              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.327869">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.30674848">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_header.jsp">
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.382353">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state vertical-scroll-proportion="-4.413793">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="37" />
+              <folding>
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalePosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="8" selection-start-line="44" selection-start-column="2" selection-end-line="48" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_header.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
+      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21442886">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#57201#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6844#6845#0" expanded="false" />
+                <element signature="e#6875#6876#0" expanded="false" />
+                <element signature="e#7577#7578#0" expanded="false" />
+                <element signature="e#7625#7626#0" expanded="false" />
+                <element signature="e#8526#8527#0" expanded="false" />
+                <element signature="e#8578#8579#0" expanded="false" />
+                <element signature="e#10720#10721#0" expanded="false" />
+                <element signature="e#10750#10751#0" expanded="false" />
+                <element signature="e#28620#28621#0" expanded="false" />
+                <element signature="e#28671#28672#0" expanded="false" />
+                <element signature="e#29442#29443#0" expanded="false" />
+                <element signature="e#29506#29507#0" expanded="false" />
+                <element signature="e#30042#30043#0" expanded="false" />
+                <element signature="e#30120#30121#0" expanded="false" />
+                <element signature="e#31971#31972#0" expanded="false" />
+                <element signature="e#32021#32022#0" expanded="false" />
+                <element signature="e#32819#32820#0" expanded="false" />
+                <element signature="e#32872#32873#0" expanded="false" />
+                <element signature="e#33584#33585#0" expanded="false" />
+                <element signature="e#33655#33656#0" expanded="false" />
+                <element signature="e#34244#34245#0" expanded="false" />
+                <element signature="e#34289#34290#0" expanded="false" />
+                <element signature="e#34885#34886#0" expanded="false" />
+                <element signature="e#34934#34935#0" expanded="false" />
+                <element signature="e#35418#35419#0" expanded="false" />
+                <element signature="e#35465#35466#0" expanded="false" />
+                <element signature="e#36078#36079#0" expanded="false" />
+                <element signature="e#36131#36132#0" expanded="false" />
+                <element signature="e#36717#36718#0" expanded="false" />
+                <element signature="e#36764#36765#0" expanded="false" />
+                <element signature="e#37365#37366#0" expanded="false" />
+                <element signature="e#37418#37419#0" expanded="false" />
+                <element signature="e#37718#37719#0" expanded="false" />
+                <element signature="e#37754#37755#0" expanded="false" />
+                <element signature="e#38710#38711#0" expanded="false" />
+                <element signature="e#38770#38771#0" expanded="false" />
+                <element signature="e#39232#39233#0" expanded="false" />
+                <element signature="e#39292#39293#0" expanded="false" />
+                <element signature="e#39988#39989#0" expanded="false" />
+                <element signature="e#40069#40070#0" expanded="false" />
+                <element signature="e#57143#57144#0" expanded="false" />
+                <element signature="e#57197#57198#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +407,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="jsf" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -156,9 +423,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/repository/MainRepository.java" />
@@ -171,20 +435,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/one.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/one.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java" />
@@ -196,17 +454,26 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/products_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/admin_header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Order.java" />
       </list>
     </option>
   </component>
@@ -265,6 +532,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -281,20 +550,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ModelsShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ModelsShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ModelsShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -946,8 +1201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1012,6 +1265,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ua.com.models.model.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ModelsShop" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.com.models.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ua.com.models.model.test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1424,15 +1697,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.test" />
       <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1499,7 +1774,8 @@
       <workItem from="1482998374738" duration="1234000" />
       <workItem from="1483085347313" duration="76363000" />
       <workItem from="1483451119989" duration="3299000" />
-      <workItem from="1483456609505" duration="48428000" />
+      <workItem from="1483456609505" duration="58390000" />
+      <workItem from="1483655800078" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1480517538494</created>
@@ -1645,11 +1921,17 @@
       <option name="project" value="LOCAL" />
       <updated>1483608464354</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fix bug with search">
+      <created>1483622437290</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1483622437290</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721572000" />
+    <option name="totallyTimeSpent" value="734266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="927" extended-state="6" />
@@ -1657,14 +1939,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4344569" sideWeight="0.615625" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43345544" sideWeight="0.615625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41877636" sideWeight="0.3828125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31501833" sideWeight="0.6171875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36874238" sideWeight="0.6171875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1672,7 +1954,6 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23443224" sideWeight="0.47083333" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1683,6 +1964,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11354167" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23443224" sideWeight="0.47083333" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1749,7 +2031,9 @@
     <MESSAGE value="Add some methods to client controller and change client views" />
     <MESSAGE value="Add possibility to change quantity of each model's type in cart" />
     <MESSAGE value="Change and beautify views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change and beautify views" />
+    <MESSAGE value="Fix bug with search" />
+    <MESSAGE value="Fix bugs and beautify views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs and beautify views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1782,50 +2066,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/repository/StatusRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/repository/SalePositionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.32353">
-          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminCategoriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/service/MainService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1869,35 +2109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/one.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.82353">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminUsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="122" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6764708">
-          <caret line="90" column="65" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,7 +2120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,15 +2127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="8" selection-start-line="44" selection-start-column="2" selection-end-line="48" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1949,16 +2154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.294118">
@@ -1975,14 +2170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7058823">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.088235">
@@ -1995,7 +2182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2040,7 +2226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2057,14 +2242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.058823">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.088235">
@@ -2073,19 +2250,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.029411">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2093,7 +2261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.827586">
           <caret line="119" column="42" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2105,66 +2272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9344263">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.058824">
-          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.382353">
-          <caret line="81" column="67" selection-start-line="80" selection-start-column="2" selection-end-line="81" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0327868">
-          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="162" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.37705">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.411765">
-          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/products_in_the_cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.882353">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-83.05882">
-          <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -2203,8 +2314,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21442886">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state vertical-scroll-proportion="-13.058824">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4411764">
+          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="162" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1803279">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.352941">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0327868">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-48.52941">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="32" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/contacts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="81" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#57201#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6844#6845#0" expanded="false" />
+            <element signature="e#6875#6876#0" expanded="false" />
+            <element signature="e#7577#7578#0" expanded="false" />
+            <element signature="e#7625#7626#0" expanded="false" />
+            <element signature="e#8526#8527#0" expanded="false" />
+            <element signature="e#8578#8579#0" expanded="false" />
+            <element signature="e#10720#10721#0" expanded="false" />
+            <element signature="e#10750#10751#0" expanded="false" />
+            <element signature="e#28620#28621#0" expanded="false" />
+            <element signature="e#28671#28672#0" expanded="false" />
+            <element signature="e#29442#29443#0" expanded="false" />
+            <element signature="e#29506#29507#0" expanded="false" />
+            <element signature="e#30042#30043#0" expanded="false" />
+            <element signature="e#30120#30121#0" expanded="false" />
+            <element signature="e#31971#31972#0" expanded="false" />
+            <element signature="e#32021#32022#0" expanded="false" />
+            <element signature="e#32819#32820#0" expanded="false" />
+            <element signature="e#32872#32873#0" expanded="false" />
+            <element signature="e#33584#33585#0" expanded="false" />
+            <element signature="e#33655#33656#0" expanded="false" />
+            <element signature="e#34244#34245#0" expanded="false" />
+            <element signature="e#34289#34290#0" expanded="false" />
+            <element signature="e#34885#34886#0" expanded="false" />
+            <element signature="e#34934#34935#0" expanded="false" />
+            <element signature="e#35418#35419#0" expanded="false" />
+            <element signature="e#35465#35466#0" expanded="false" />
+            <element signature="e#36078#36079#0" expanded="false" />
+            <element signature="e#36131#36132#0" expanded="false" />
+            <element signature="e#36717#36718#0" expanded="false" />
+            <element signature="e#36764#36765#0" expanded="false" />
+            <element signature="e#37365#37366#0" expanded="false" />
+            <element signature="e#37418#37419#0" expanded="false" />
+            <element signature="e#37718#37719#0" expanded="false" />
+            <element signature="e#37754#37755#0" expanded="false" />
+            <element signature="e#38710#38711#0" expanded="false" />
+            <element signature="e#38770#38771#0" expanded="false" />
+            <element signature="e#39232#39233#0" expanded="false" />
+            <element signature="e#39292#39293#0" expanded="false" />
+            <element signature="e#39988#39989#0" expanded="false" />
+            <element signature="e#40069#40070#0" expanded="false" />
+            <element signature="e#57143#57144#0" expanded="false" />
+            <element signature="e#57197#57198#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/one.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.558824">
+          <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product/one.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.617647">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/one.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.823529">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category/one.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.235294">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="8" selection-start-line="44" selection-start-column="2" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.413793">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30674848">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>

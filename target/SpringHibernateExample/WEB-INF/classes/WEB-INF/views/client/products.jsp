@@ -5,7 +5,7 @@
 
 <html>
 <head>
-  <title>Все модели</title>
+  <title>Модели</title>
   <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="../../../resources/js/jquery.min.js"></script>
@@ -56,11 +56,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 
           </a>
-          <p style="text-align:center"><a href="product_${product.url}">${product.title}</a></p>
+          <p style="text-align:center;"><a href="product_${product.url}">${product.title}</a></p>
 
           <form action="cart_add" method=post>
             <input type=hidden name="id" value="${product.id}">
-            <p class="text" style="text-align:center title="Добавить ${product.title} в корзину">
+            <p class="text" style="text-align:center;" title="Добавить ${product.title} в корзину">
               <fmt:formatNumber type="number" value="${product.price}"/> грн &nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
             </p>
           </form>
@@ -75,25 +75,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </div>
 </div>
 
-<div class="footer">
-  <div class="container">
-    <div class="footer-top-at w3">
-      <div class="col-md-4 amet-sed">
-        <h4><a href="home">HOME</a></h4>
-      </div>
-      <div class="col-md-4 amet-sed">
-        <h4><a href="all_products">Товары</a></h4>
-      </div>
-      <div class="col-md-4 amet-sed">
-        <h4><a href="contacts">Контакты</a></h4>
-      </div>
+<!-- Footer -->
+<jsp:include page="/WEB-INF/views/client/template/footer.jsp"/>
 
-      <div class="clearfix"> </div>
-    </div>
-  </div>
-  <div class="footer-class">
-  </div>
-</div>
 <!-- Scripts -->
 <script src="resources/bootstrap/js/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="resources/bootstrap/js/jquery.appear.js" type="text/javascript"></script>

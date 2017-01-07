@@ -58,11 +58,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="product_${product.url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/product/${product.photo.photoLinkShort}" alt="">
 
 						</a>
-						<p style="text-align:center><a href="product_${product.url}">${product.title}</a></p>
-
+						<p style="text-align:center;"><a href="product_${product.url}">${product.title}</a></p>
 						<form action="cart_add" method=post>
 							<input type=hidden name="id" value="${product.id}">
-							<p class="text" style="text-align:center title="Добавить ${product.title} в корзину">
+							<p class="text" style="text-align:center;" title="Добавить ${product.title} в корзину">
 								<fmt:formatNumber type="number" value="${product.price}"/> грн	&nbsp;   <button class="btn btn-success" type="submit">Добавить в корзину</button>
 							</p>
 						</form>

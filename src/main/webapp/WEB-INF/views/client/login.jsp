@@ -6,7 +6,7 @@
     <html>
     <head>
       
-<title>Авторизация || Models Shop</title>
+<title>Авторизация</title>
 <link href="../../../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../../../resources/js/jquery.min.js"></script>
@@ -62,10 +62,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <form class="form-signin" action="login"  method="post">
                         <input id="username" class="form-control" type="text" name="username"
                                pattern="[A-Za-z0-9_]{5,50}"
-                               placeholder="Введите логин, формат (A-Z, a-z, 0-9, _)" style="margin-top: 25px"
+                               placeholder="Введите логин, формат (A-Z, a-z, 0-9, _) - mSheverda" style="margin-top: 25px"
                                minlength="5" maxlength="50" autofocus required>
                         <input id="password" class="form-control" type="password" name="password"
-                               pattern="[A-Za-z0-9]{6,50}" placeholder="Введите пароль, формат (A-Z, a-z, 0-9)"
+                               pattern="[A-Za-z0-9]{6,50}" placeholder="Введите пароль, формат (A-Z, a-z, 0-9) - 987654"
                                style="margin-top: 25px" minlength="6" maxlength="50" required>
                         <button class="btn btn-success" type="submit" style="margin-top: 25px">Войти</button>
                     </form>
