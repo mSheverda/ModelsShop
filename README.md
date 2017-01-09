@@ -7,6 +7,13 @@ Shop divided in two parts: for clients and for damonistrator.
 
 <b>Clients</b> can navigate on the main pages of the site, view categorues, products, contacts and make orders. 
 <p align="center">
-  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen1.jpg" width="350"/>
-  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen1.jpg" width="350"/>
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen1.jpg" width="400"/>
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen2.jpg" width="400"/>
+</p>
+<br>
+<b>Administrator</b> can navigate on all the pages of the site. Administrator can add, edit, and delete products, categories, orders, clients. 
+<br>
+<p align="center">
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen4.jpg" width="400"/>
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen3.jpg" width="400"/>
 </p>
