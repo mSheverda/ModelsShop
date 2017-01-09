@@ -22,15 +22,13 @@
 
     <!-- All users -->
     <div class="container">
-
             <div class="row admin-page">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
                     <div class="row section-name text-shadow">
-
                         <div class="clearfix"></div>
                         <b>
-
                             <c:if test="${fn:length(users) eq 0}">
+                                <br/><br/>
                                 <h2>Cписок пуст!</h2>
                                 <br>
                                 <a href="add_user" title="Добавить нового работника">

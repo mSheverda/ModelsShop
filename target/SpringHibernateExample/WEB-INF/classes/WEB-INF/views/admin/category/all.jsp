@@ -27,6 +27,7 @@
                         <b>
 
                             <c:if test="${fn:length(categories) eq 0}">
+                                <br/><br/>
                                 <h2>Cписок пуст!</h2>
                                 <br>
                                 <a href="add_category" title="Добавить новую категорию">

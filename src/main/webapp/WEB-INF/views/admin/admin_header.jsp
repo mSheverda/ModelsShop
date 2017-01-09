@@ -32,7 +32,7 @@
     <div class="container">
         <div class="head-top">
             <div class="logo">
-                <h1><a href="home">Models Shop</a></h1>
+                <h1><a href="../home">Models Shop</a></h1>
             </div>
             <div class=" h_menu4">
                 <ul class="memenu skyblue">

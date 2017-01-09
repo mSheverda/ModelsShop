@@ -4,7 +4,6 @@
 <%@ taglib prefix="compress" uri="http://htmlcompressor.googlecode.com/taglib/compressor" %>
 
 <compress:html>
-
     <html>
     <head>
         <title>Редактировать категорию</title>
@@ -12,7 +11,6 @@
     </head>
     <body>
     <jsp:include page="/WEB-INF/views/admin/admin_header.jsp"/>
-
     <div class="grow">
         <div class="container">
             <h2>РЕДАКТИРОВАТЬ КАТЕГОРИЮ</h2>
@@ -20,18 +18,9 @@
     </div>
 
     <!-- Edit category -->
-    <div class="container-fluid width">
+    <div class="container">
         <section id="category" class="admin">
             <div class="row admin-page">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1">
-                    <div class="row section-name text-shadow">
-                        <b>
-                            <span class="color-brown">Редактирование категории </span>
-                            <span class="color-green">"${category.title}"</span>
-                        </b>
-                    </div>
-                </div>
-
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xl-10 col-xl-offset-1 full-cart">
                     <form enctype="multipart/form-data" action="update_category" method="post">
                         <input type="hidden" name="id" value="${category.id}">

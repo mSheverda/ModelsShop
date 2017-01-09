@@ -44,14 +44,8 @@
 		<div class="content">
 			<div class="content-top-bottom">
 			<section id="categories">
-			
-				<h2>Категории
-				<c:if test="${fn:length(categories) eq 0}">
-					<span> - список пуст!</span>
-                </c:if>
-				</h2>
+				<h2>Категории</h2>
 				<c:if test="${fn:length(categories) gt 0}">
-   					
 				<div class="col-md-6 men">
 					<a href="category_${categories[1].url}" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="../../../resources/images/category/${categories[1].photo.photoLinkShort}" alt="">
 						<div class="b-wrapper">

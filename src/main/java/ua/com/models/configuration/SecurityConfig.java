@@ -1,15 +1,12 @@
 package ua.com.models.configuration;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import ua.com.models.enums.RoleEnum;
 import ua.com.models.service.RoleService;
 
 @Configuration
@@ -27,10 +24,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String ACCESS_DENIED_PAGE = "/forbidden_exception";
 
-    private static final String DEFAULT_LOGIN = "adminka1";
-
-    private static final String DEFAULT_PASSWORD = "vitaminka1";
-
     @Autowired
     public UserDetailsService userDetailsService;
 
@@ -42,8 +35,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         httpSecurity
                 .authorizeRequests()
                 .antMatchers(ADMIN_REQUEST_URl)
-                .hasRole( this.roleService.getAdministrator().getTitle().name()
-                )
+                .hasRole("ADMIN")
                 .anyRequest().permitAll()
                 .and()
                 .formLogin()
@@ -54,15 +46,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .exceptionHandling().accessDeniedPage(ACCESS_DENIED_PAGE).and()
                 .csrf().disable();
-    }
-
-    @Override
-    protected void configure(AuthenticationManagerBuilder builder) throws Exception {
-        builder
-                .userDetailsService(this.userDetailsService).and()
-                .inMemoryAuthentication()
-                .withUser(DEFAULT_LOGIN).password(DEFAULT_PASSWORD)
-                .roles(this.roleService.getAdministrator().getTitle().name()
-                );
     }
 }
