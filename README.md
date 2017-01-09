@@ -5,5 +5,8 @@ Java EE, Spring Framework (IoC, MVC, Data, Security), JPA / Hibernate, PostgreSQ
 
 Shop divided in two parts: for clients and for damonistrator.
 
-<b>Clients</b>
-Clients can navigate on the main pages of the site, view categorues, products, contacts and make orders. 
+<b>Clients</b> can navigate on the main pages of the site, view categorues, products, contacts and make orders. 
+<p align="center">
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen1.jpg" width="350"/>
+  <img src="https://github.com/mSheverda/ModelsShop/blob/master/screen1.jpg" width="350"/>
+</p>
