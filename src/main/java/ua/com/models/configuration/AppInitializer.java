@@ -13,17 +13,17 @@ import javax.servlet.ServletException;
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
-    protected Class<?>[] getRootConfigClasses() {
+    public Class<?>[] getRootConfigClasses() {
         return new Class[] { AppConfig.class, HibernateConfiguration.class, SecurityConfig.class };
     }
 
     @Override
-    protected Class<?>[] getServletConfigClasses() {
+    public Class<?>[] getServletConfigClasses() {
         return null;
     }
 
     @Override
-    protected String[] getServletMappings() {
+    public String[] getServletMappings() {
         return new String[] { "/" };
     }
 
@@ -48,7 +48,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
      *
      */
     @Override
-    protected DispatcherServlet createDispatcherServlet(WebApplicationContext context) {
+    public DispatcherServlet createDispatcherServlet(WebApplicationContext context) {
         final DispatcherServlet dispatcherServlet = (DispatcherServlet) super.createDispatcherServlet(context);
         dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
         return dispatcherServlet;
