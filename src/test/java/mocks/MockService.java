@@ -64,13 +64,6 @@ public final class MockService {
         return salePositionService;
     }
 
-    public static SenderService getSenderService() {
-        if (senderService == null) {
-            senderService = initSenderService();
-        }
-        return senderService;
-    }
-
     public static ShoppingCartService getShoppingCartService() {
         if (shoppingCartService == null) {
             shoppingCartService = initShoppingCartService();
@@ -122,12 +115,7 @@ public final class MockService {
         SalePositionDAO salePositionDAO = getSalePositionDAO();
         return new SalePositionServiceImpl(salePositionDAO);
     }
-
-    private static SenderService initSenderService() {
-        UserService userService = getUserService();
-        return new SenderServiceImpl(userService);
-    }
-
+    
     private static ShoppingCartService initShoppingCartService() {
         ShoppingCartDAO shoppingCartDAO = getShoppingCartDAO();
         return new ShoppingCartServiceImpl(shoppingCartDAO);
