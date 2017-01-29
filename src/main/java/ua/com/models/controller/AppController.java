@@ -58,7 +58,7 @@ public class AppController {
     @Autowired
     public AppController(ProductService productService, CategoryService categoryService,
                          ShoppingCartService shoppingCartService, OrderService orderService,
-                         StatusService statusService, RoleService roleService, SalePositionService salePositionService) {
+                         StatusService statusService, RoleService roleService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.shoppingCartService = shoppingCartService;
@@ -66,6 +66,9 @@ public class AppController {
         this.statusService = statusService;
         this.roleService = roleService;
         this.salePositionService = salePositionService;
+    }
+
+    public AppController(ProductService productService, CategoryService categoryService, ShoppingCartService shoppingCartService, OrderService orderService, StatusService statusService, RoleService roleService, SenderService senderService) {
     }
 
     /**
