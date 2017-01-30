@@ -8,6 +8,7 @@ import ua.com.models.model.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static mocks.MockModel.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -166,7 +167,6 @@ public final class MockDAO {
         when(roleDAO.get(UNKNOWN_ID)).thenReturn(null);
         when(roleDAO.get(ROLE_ENUM)).thenReturn(role);
         when(roleDAO.get(RoleEnum.ADMIN)).thenReturn(role);
-        when(roleDAO.get(RoleEnum.MANAGER)).thenReturn(role);
         when(roleDAO.get(RoleEnum.CLIENT)).thenReturn(null);
         when(roleDAO.getDefault()).thenReturn(role);
         when(roleDAO.getAll()).thenReturn(roles);
@@ -221,7 +221,6 @@ public final class MockDAO {
         when(userDAO.getByUsername(ANY_STRING)).thenReturn(null);
         when(userDAO.getMainAdministrator()).thenReturn(user);
         when(userDAO.getAdministrators()).thenReturn(users);
-        when(userDAO.getManagers()).thenReturn(users);
         when(userDAO.getClients()).thenReturn(users);
         when(userDAO.getAll()).thenReturn(users);
         when(userDAO.getAuthenticatedUser()).thenReturn(user);

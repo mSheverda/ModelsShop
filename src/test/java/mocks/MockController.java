@@ -7,6 +7,7 @@ import ua.com.models.controller.admin.AdminUsersController;
 import ua.com.models.controller.AppController;
 import ua.com.models.service.*;
 
+import static mocks.MockService.*;
 
 
 /**

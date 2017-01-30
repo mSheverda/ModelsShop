@@ -21,6 +21,10 @@ public final class MockModel {
     public static final String URL = "url";
     public static final String NUMBER = "number";
     public static final String TITLE = "title";
+    public static final String SCALE = "scale";
+    public static final String MANUFACTURER = "manufacturer";
+    public static final String DIFFICULTY = "difficulty";
+    public static final String DETAILS = "details";
     public static final String NAME = "name";
     public static final String USERNAME = "username";
     public static final String ANY_STRING = "any";
@@ -126,10 +130,12 @@ public final class MockModel {
     private static Product initProduct() {
         Category category = initCategory();
         Photo photo = initPhoto();
-        Product product = new Product(TITLE, URL, category, photo, PRICE);
+        Product product = new Product(TITLE, URL, SCALE, MANUFACTURER,
+                DIFFICULTY, DETAILS, null,   category, photo, PRICE);
         product.setId(ID);
         return product;
     }
+
 
     private static Role initRole() {
         Role role = new Role(ROLE_ENUM, ROLE_ENUM.name());

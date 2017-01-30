@@ -1,14 +1,20 @@
 package controller.admin;
 
+import mocks.MockController;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 import ua.com.models.controller.admin.AdminCategoriesController;
 
+import static mocks.ModelAndViews.checkModelAndView;
+import static mocks.MockModel.ID;
+
 /**
  * Created by Max on 1/29/2017.
  */
+
+
 public class AdminCategoriesControllerTest {
 
     private static AdminCategoriesController adminCategoriesController;
@@ -72,15 +78,6 @@ public class AdminCategoriesControllerTest {
         System.out.println("OK!");
     }
 
-    @Test(expected = WrongInformationException.class)
-    public void saveCategoryGetTest() throws Exception {
-        System.out.print("-> saveCategory() RequestMethod.GET- ");
-
-        adminCategoriesController.saveCategory();
-
-        System.out.println("OK!");
-    }
-
     @Test
     public void getEditCategoryPageTest() throws Exception {
         System.out.print("-> getEditCategoryPage() - ");
@@ -101,15 +98,6 @@ public class AdminCategoriesControllerTest {
                 ID, "Photo", null, new ModelAndView());
         String viewName = "redirect:/admin/view_category_1";
         checkModelAndView(modelAndView, viewName);
-
-        System.out.println("OK!");
-    }
-
-    @Test(expected = WrongInformationException.class)
-    public void updateCategoryGetTest() throws Exception {
-        System.out.print("-> updateCategory() RequestMethod.GET - ");
-
-        adminCategoriesController.updateCategory();
 
         System.out.println("OK!");
     }
