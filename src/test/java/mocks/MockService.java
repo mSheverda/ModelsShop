@@ -8,7 +8,8 @@ import ua.com.models.dao.*;
 import ua.com.models.service.*;
 import ua.com.models.service.impl.*;
 
-import static ua.com.models.tools.MockDAO.*;
+import static mocks.MockDAO.*;
+
 
 public final class MockService {
 
@@ -115,7 +116,7 @@ public final class MockService {
         SalePositionDAO salePositionDAO = getSalePositionDAO();
         return new SalePositionServiceImpl(salePositionDAO);
     }
-    
+
     private static ShoppingCartService initShoppingCartService() {
         ShoppingCartDAO shoppingCartDAO = getShoppingCartDAO();
         return new ShoppingCartServiceImpl(shoppingCartDAO);
