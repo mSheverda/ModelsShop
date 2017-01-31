@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542b40c8-d7d8-462d-9ad5-d06a44f5ff01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mocks/ModelAndViews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mocks/MockController.java" afterPath="$PROJECT_DIR$/src/test/java/mocks/MockController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mocks/MockDAO.java" afterPath="$PROJECT_DIR$/src/test/java/mocks/MockDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mocks/MockModel.java" afterPath="$PROJECT_DIR$/src/test/java/mocks/MockModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/model/CategoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringHibernateExample.iws" />
@@ -36,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminCategoriesControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminCategoriesControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5537295">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,12 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/service/OrderService.java">
+      <file leaf-file-name="CategoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/CategoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="0.07964602">
+              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/SalePosition.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" />
@@ -221,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/test/java/mocks/MockDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/mocks/MockController.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/CategoryTest.java" />
       </list>
     </option>
   </component>
@@ -364,6 +362,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelsShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelsShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1344,7 +1368,7 @@
       <workItem from="1484502348963" duration="1490000" />
       <workItem from="1484728318999" duration="10674000" />
       <workItem from="1485182582179" duration="14420000" />
-      <workItem from="1485530072476" duration="9435000" />
+      <workItem from="1485530072476" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1480517538494</created>
@@ -1550,11 +1574,17 @@
       <option name="project" value="LOCAL" />
       <updated>1485807025170</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fix some bugs and add unit tests">
+      <created>1485809446536</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1485809446536</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="807620000" />
+    <option name="totallyTimeSpent" value="808656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="927" extended-state="0" />
@@ -1632,7 +1662,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Product and Category" />
     <MESSAGE value="Add views for Product and Category" />
     <MESSAGE value="Change database URL to save data in UTF-8" />
     <MESSAGE value="Configure ServletContext to save data in UTF-8" />
@@ -1657,7 +1686,8 @@
     <MESSAGE value="Add unit tests for enums" />
     <MESSAGE value="Add unit tests for config" />
     <MESSAGE value="Fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some bugs" />
+    <MESSAGE value="Fix some bugs and add unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some bugs and add unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1690,13 +1720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.617647">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminProductsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.586206">
@@ -2013,7 +2036,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2108,8 +2131,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5537295">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/CategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07964602">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
