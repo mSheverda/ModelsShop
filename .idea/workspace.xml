@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542b40c8-d7d8-462d-9ad5-d06a44f5ff01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/model/CategoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/model/ModelTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringHibernateExample.iws" />
@@ -44,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/CategoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07964602">
+            <state vertical-scroll-proportion="0.0">
               <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/ModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43109986">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,16 +146,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -168,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/models/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/model/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/models/dao/ShoppingCartDAO.java" />
@@ -219,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/test/java/mocks/MockController.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/admin/AdminCategoriesControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/CategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/ModelTest.java" />
       </list>
     </option>
   </component>
@@ -1368,7 +1370,7 @@
       <workItem from="1484502348963" duration="1490000" />
       <workItem from="1484728318999" duration="10674000" />
       <workItem from="1485182582179" duration="14420000" />
-      <workItem from="1485530072476" duration="10471000" />
+      <workItem from="1485530072476" duration="11249000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1480517538494</created>
@@ -1580,11 +1582,17 @@
       <option name="project" value="LOCAL" />
       <updated>1485809446536</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add unit tests for category">
+      <created>1485896450251</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1485896450251</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="808656000" />
+    <option name="totallyTimeSpent" value="809434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="927" extended-state="0" />
@@ -1662,7 +1670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add views for Product and Category" />
     <MESSAGE value="Change database URL to save data in UTF-8" />
     <MESSAGE value="Configure ServletContext to save data in UTF-8" />
     <MESSAGE value="Add SalePosition" />
@@ -1687,7 +1694,8 @@
     <MESSAGE value="Add unit tests for config" />
     <MESSAGE value="Fix some bugs" />
     <MESSAGE value="Fix some bugs and add unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some bugs and add unit tests" />
+    <MESSAGE value="Add unit tests for category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests for category" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1720,13 +1728,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/models/controller/admin/AdminProductsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.586206">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/template/home_header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.882353">
@@ -2141,8 +2142,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/CategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07964602">
+        <state vertical-scroll-proportion="0.0">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43109986">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
