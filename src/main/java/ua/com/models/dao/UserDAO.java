@@ -23,5 +23,4 @@ public interface UserDAO extends AbstractDao<User> {
 
     void remove(Role role);
 
-   // List<User> search(String searchTerm);
 }

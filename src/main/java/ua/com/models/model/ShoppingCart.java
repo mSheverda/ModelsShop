@@ -16,35 +16,20 @@ import java.util.List;
 @Component
 @Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ShoppingCart implements Serializable {
-    /**
-     * Номер версии класса необходимый для десериализации и сериализации.
-     */
+
     private static final long serialVersionUID = 1L;
 
-    /**
-     * Список торговых позиций, которые сделал клиент, но пока не оформил заказ.
-     */
     private List<SalePosition> salePositions = new ArrayList<>();
 
-    /**
-     * Конструктр без параметров.
-     */
     public ShoppingCart() {
         super();
     }
 
-    /**
-     * Конструктор для инициализации основных переменных корзины.
-     */
     public ShoppingCart(List<SalePosition> salePositions) {
         this();
         this.salePositions = salePositions;
     }
 
-    /**
-     * Возвращает описание корзины.
-     * Переопределенный метод родительского класса Object.
-     */
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Shoping Cart: ");
@@ -62,9 +47,6 @@ public class ShoppingCart implements Serializable {
         return sb.toString();
     }
 
-    /**
-     * Добавляет торговую позицию в список корзины.
-     */
     public void addSalePosition(SalePosition salePosition) {
         if (salePosition != null) {
             if (!this.salePositions.contains(salePosition)) {
@@ -76,64 +58,38 @@ public class ShoppingCart implements Serializable {
         }
     }
 
-    /**
-     * Добавляет список торговых позиций в список корзины.
-     */
     public void addSalePositions(List<SalePosition> salePositions) {
         for (SalePosition salePosition : salePositions) {
             addSalePosition(salePosition);
         }
     }
 
-    /**
-    * Возвращает торговую позицию из корзины.
-    */
-
     public SalePosition getSalePosition(long id) {
         SalePosition salePosition = this.salePositions.get((int)id);
         return salePosition;
     }
 
-    /**
-     * Удаляет торговую позицию из корзины.
-     */
     public void removeSalePosition(long id) {
         SalePosition salePosition = getSalePosition(id); //this.salePositions.get((int)id);
         this.salePositions.remove(salePosition);
     }
 
-    /**
-     * Удаляет список торговых позицый из корзины.
-     */
     public void removeSalePositions(List<SalePosition> salePositions ) {
         this.salePositions.removeAll(salePositions);
     }
 
-    /**
-     * Очищает корзину. Удаляет все торговые позиции в корзине.
-     */
     public void clearSalePositions() {
         this.salePositions.clear();
     }
 
-    /**
-     * Возвращает список всех торговых позиций в корзине.
-     * Метод конвертирует список торговых позиций в корзине в список только для чтений и возвращает его.
-     */
     public List<SalePosition> getSalePositions() {
         return this.salePositions == null || this.salePositions.isEmpty() ? Collections.EMPTY_LIST : Collections.unmodifiableList(this.salePositions);
     }
 
-    /**
-     * Устанавливает список торговых позиций.
-     */
     public void setSalePositions(List<SalePosition> salePositions) {
         this.salePositions = salePositions;
     }
 
-    /**
-     * Возвращает цену корзины - цена всех торговых позиций.
-     */
     public double getPrice() {
         double sum = 0;
         for (SalePosition salePosition : this.salePositions) {
@@ -142,9 +98,6 @@ public class ShoppingCart implements Serializable {
         return sum;
     }
 
-    /**
-     * Возвращает размер корзины - количество товаров в корзине.
-     */
     public int getSize() {
         int size = 0;
         for (SalePosition salePosition : this.salePositions) {

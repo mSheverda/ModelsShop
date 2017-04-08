@@ -12,26 +12,15 @@ import ua.com.models.service.OrderService;
  */
 @Service
 public class OrderServiceImpl extends MainServiceImpl<Order> implements OrderService {
-    /**
-     * Реализация интерфейса OrderDAO для работы заказов с базой данных.
-     */
+
     private final OrderDAO dao;
 
-    /**
-     * Конструктор для инициализации основных переменных сервиса.
-     * Помечаный аннотацией @Autowired, которая позволит Spring
-     * автоматически инициализировать объект.
-     */
     @Autowired
     public OrderServiceImpl(OrderDAO dao) {
         super(dao);
         this.dao = dao;
     }
 
-    /**
-     * Возвращает заказ из базы даных, у которого совпадает уникальный номером
-     * с значением входящего параметра. Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public Order get(String number)
@@ -40,10 +29,6 @@ public class OrderServiceImpl extends MainServiceImpl<Order> implements OrderSer
         return order;
     }
 
-    /**
-     * Удаляет заказ из базы даных, у которого совпадает уникальный номером
-     * с значением входящего параметра.
-     */
     @Override
     @Transactional
     public void remove(String number)

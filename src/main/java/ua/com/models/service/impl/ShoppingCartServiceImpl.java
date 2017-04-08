@@ -15,23 +15,14 @@ import java.util.List;
  */
 @Service
 public class ShoppingCartServiceImpl implements ShoppingCartService {
-    /**
-     * Реализация интерфейса для работы з торговой корзиной.
-     */
+
     private final ShoppingCartDAO shoppingCartDAO;
 
-    /**
-     * Конструктор для инициализации основных переменных сервиса.
-     * Помечаный аннотацией @Autowired, которая позволит Spring автоматически инициализировать объект.
-     */
     @Autowired
     public ShoppingCartServiceImpl(ShoppingCartDAO shoppingCartDAO) {
         this.shoppingCartDAO = shoppingCartDAO;
     }
 
-    /**
-     * Возвращает объект корзину. Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public ShoppingCart getShoppingCart()
@@ -40,9 +31,6 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
         return shoppingCart;
     }
 
-    /**
-     * Добавляет торговую позицию в список корзины.
-     */
     @Override
     @Transactional
     public void add(SalePosition salePosition) {
@@ -51,55 +39,36 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
         }
     }
 
-    /**
-     * Возвращает список всех торговых позиций в корзине. Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public List<SalePosition> getSalePositions() {
         return this.shoppingCartDAO.getSalePositions();
     }
 
-    /**
-     * Возвращает торговую позицию из корзины.
-     */
     @Override
     @Transactional
     public SalePosition get(long id){
        return this.shoppingCartDAO.getSalePosition(id);
     }
 
-    /**
-     * Удаляет торговую позицию из корзины.
-     */
     @Override
     @Transactional
     public void remove(long id){
         this.shoppingCartDAO.removeSalePosition(id);
     }
 
-    /**
-     * Очищает корзину. Удаляет все торговые позиции в корзине.
-     */
     @Override
     @Transactional
     public void clear() {
         this.shoppingCartDAO.clearSalePositions();
     }
 
-    /**
-     * Возвращает цену корзины - цена всех продаж. Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public double getPrice() {
         return this.shoppingCartDAO.getPrice();
     }
 
-    /**
-     * Возвращает размер корзины, то есть количество товаров в корзине.
-     * Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public int getSize() {

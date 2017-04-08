@@ -12,11 +12,6 @@ import ua.com.models.service.SalePositionService;
 @Service
 public class SalePositionServiceImpl extends MainServiceImpl<SalePosition> implements SalePositionService {
 
-    /**
-     * Конструктор для инициализации основных переменных сервиса.
-     * Помечаный аннотацией @Autowired, которая позволит Spring
-     * автоматически инициализировать объект.
-     */
     @Autowired
     public SalePositionServiceImpl(SalePositionDAO dao) {
         super(dao);

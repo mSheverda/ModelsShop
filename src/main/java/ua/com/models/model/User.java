@@ -208,20 +208,4 @@ public class User extends Model implements UserDetails {
         this.role = role;
     }
 
- //   public List<Order> getClientOrders() {
- //       return getUnmodifiableList(this.clientOrders);
-  //  }
-
- //   public void setClientOrders(List<Order> clientOrders) {
-//        this.clientOrders = clientOrders;
- //   }
-
- //   public List<Order> getManagerOrders() {
- //       return getUnmodifiableList(this.managerOrders);
- //   }
-
-//   public void setManagerOrders(List<Order> managerOrders) {
-//        this.managerOrders = managerOrders;
-//    }
-
 }

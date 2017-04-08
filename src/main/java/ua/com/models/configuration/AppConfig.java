@@ -39,16 +39,8 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         resource.addResourceHandler(RESOURCES_URL + "**").addResourceLocations(RESOURCES_URL);
     }
 
-    //for avtorization
-
-    /**
-     * URL запроса для авторизации.
-     */
     private static final String LOGIN_URL = "/login";
 
-    /**
-     * Название вьюшки авторизации.
-     */
     private static final String LOGIN_VIEW_NAME = "client/login";
 
     @Override

@@ -18,22 +18,11 @@ import java.util.List;
 
 @Service("productService")
 public class ProductServiceImpl extends MainServiceImpl<Product> implements ProductService {
-    /**
-     * Реализация интерфейса ProductDAO для работы с товаров базой данных.
-     */
+
     private final ProductDAO productDAO;
 
-    /**
-     * Реализация интерфейса CategoryDAO для работы с категорий базой данных.
-     */
     private final CategoryDAO categoryDAO;
 
-    /**
-     * Конструктор для инициализации основных переменных сервиса.
-     * Помечаный аннотацией @Autowired, которая позволит Spring
-     * автоматически инициализировать объект.
-
-     */
     @Autowired
     public ProductServiceImpl(ProductDAO productDAO, CategoryDAO categoryDAO) {
         super(productDAO);
@@ -41,11 +30,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         this.categoryDAO = categoryDAO;
     }
 
-    /**
-     * Возвращает товар, у которого совпадает параметр url. Режим только для чтения.
-     *
-
-     */
     @Override
     @Transactional(readOnly = true)
     public Product getByUrl(String url)
@@ -55,11 +39,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return product;
     }
 
-    /**
-     * Возвращает товар, у которого совпадает уникальный
-     * артикль с значением входящего параметра. Режим только для чтения.
-     *
-     */
     @Override
     @Transactional(readOnly = true)
     public Product getByArticle(int article)
@@ -68,11 +47,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return product;
     }
 
-    /**
-     * Возвращает список товаров, которые относятся к категории
-     * с уникальным URL - входным параметром. Режим только для чтения.
-     *
-     */
     @Override
     @Transactional(readOnly = true)
     public List<Product> getByCategoryUrl(String url)
@@ -83,11 +57,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return this.productDAO.getListByCategoryId(category.getId());
     }
 
-    /**
-     * Возвращает список товаров, которые относятся к категории
-     * с уникальным кодом id - входным параметром. Режим только для чтения.
-     *
-     */
     @Override
     @Transactional(readOnly = true)
     public List<Product> getByCategoryId(Long id)
@@ -96,21 +65,12 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return this.productDAO.getListByCategoryId(id);
     }
 
-    /**
-     * Возвращает список рандомных товаров, которые относятся к категории
-     * с уникальным кодом id - входным параметром.
-     *
-     */
     @Override
     @Transactional(readOnly = true)
     public List<Product> getRandomByCategoryId(int size, Long id) {
         return getRandomByCategoryId(size, id, -1L);
     }
 
-    /**
-     * Возвращает список рандомных товаров, которые относятся к категории
-     * с уникальным кодом id - входным параметром. Режим только для чтения.
-     **/
     @Override
     @Transactional(readOnly = true)
     public List<Product> getRandomByCategoryId(int size, Long categoryId, Long differentProductId)
@@ -124,10 +84,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return getShuffleSubList(products, 0, size);
     }
 
-    /**
-     * Возвращает список рандомных товаров. Режим только для чтения.
-     *
-     */
     @Override
     @Transactional(readOnly = true)
     public List<Product> getRandom(int size) {
@@ -138,9 +94,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         return getShuffleSubList(products, 0, size);
     }
 
-    /**
-     * Удаляет товар, у которого совпадает параметр url.
-     */
     @Override
     @Transactional
     public void removeByUrl(String url)
@@ -148,19 +101,12 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         this.productDAO.removeByUrl(url);
     }
 
-    /**
-     * Удаляет товар, у которого совпадает параметр article.
-     */
     @Override
     @Transactional
     public void removeByArticle(int article) {
         this.productDAO.removeByArticle(article);
     }
 
-    /**
-     * Удаляет товары, которые пренадлежат категории
-     * с уникальным URL - входным параметром.
-    */
     @Override
     @Transactional
     public void removeByCategoryUrl(String url)
@@ -169,10 +115,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
       this.productDAO.removeByCategoryId(category.getId());
     }
 
-    /**
-     * Удаляет товары, которые пренадлежат категории
-     * с уникальным кодом - входным параметром.
-    */
     @Override
     @Transactional
     public void removeByCategoryId(Long id)
@@ -181,10 +123,6 @@ public class ProductServiceImpl extends MainServiceImpl<Product> implements Prod
         this.productDAO.removeByCategoryId(id);
     }
 
-    /**
-     * Возвращает список перемешаных товаров начиная с позиции start и заканчиваю позицеей end.
-     *
-     */
     private static List<Product> getShuffleSubList(List<Product> products, int start, int end) {
         if (products == null || products.isEmpty() || start > products.size() || start > end || start < 0 || end < 0) {
             return new ArrayList<>();

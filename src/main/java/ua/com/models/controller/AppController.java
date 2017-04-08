@@ -19,42 +19,21 @@ import java.util.List;
 
 @Controller
 public class AppController {
-    /**
-     * Объект сервиса для работы с товарами.
-     */
+
     private final ProductService productService;
 
-    /**
-     * Объект сервиса для работы с категориями товаров.
-     */
-    private final CategoryService categoryService;
+   private final CategoryService categoryService;
 
-    /**
-     * Объект сервиса для работы с торговой корзиной.
-     */
     private final ShoppingCartService shoppingCartService;
 
-    /**
-     * Объект сервиса для работы с заказами.
-     */
     private final OrderService orderService;
 
-    /**
-     * Объект сервиса для работы с статусами заказов.
-     */
     private final StatusService statusService;
 
-    /**
-     * Объект сервиса для работы с ролями пользователей.
-     */
     private final RoleService roleService;
 
     private final SalePositionService salePositionService;
 
-    /**
-     * Конструктор для инициализации основных переменных контроллера главных страниц сайта.
-     * Помечен аннотацией @Autowired, которая позволит Spring автоматически инициализировать объекты.
-     */
     @Autowired
     public AppController(ProductService productService, CategoryService categoryService,
                          ShoppingCartService shoppingCartService, OrderService orderService,
@@ -71,11 +50,6 @@ public class AppController {
     public AppController(ProductService productService, CategoryService categoryService, ShoppingCartService shoppingCartService, OrderService orderService, StatusService statusService, RoleService roleService, SenderService senderService) {
     }
 
-    /**
-     * Возвращает главную cтраницу сайта "client/home". Для формирования страницы с базы подгружаются
-     * категории товаров, 4 рандомных товаров и количество товаров в корзине.
-     * URL запроса {"/", "/index"}, метод GET.
-     */
     @RequestMapping(value = {"/", "/index", "/home"}, method = RequestMethod.GET)
     public ModelAndView home(ModelAndView modelAndView) {
         modelAndView.addObject("categories", this.categoryService.getAll());
@@ -92,21 +66,12 @@ public class AppController {
         return modelAndView;
     }
 
-
-
-    /**
-     * Перенаправляет по по запросу "/".
-     */
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ModelAndView redirectToHome(ModelAndView modelAndView) {
         modelAndView.setViewName("redirect:/");
         return modelAndView;
     }
 
-    /**
-     * Возвращает страницу "client/category" с товарами, которые пренадлежат категории с url.
-     * URL запроса "/category_{url}", метод GET.
-     */
     @RequestMapping(value = "/category_{url}", method = RequestMethod.GET)
     public ModelAndView viewProductsInCategory(@PathVariable("url") String url, ModelAndView modelAndView) {
         modelAndView.addObject("category", this.categoryService.get(url));
@@ -116,10 +81,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Возвращает страницу "client/products" с всема товарами.
-     * URL запроса "/all_products", метод GET.
-     */
     @RequestMapping(value = "/all_products", method = RequestMethod.GET)
     public ModelAndView viewAllProducts(ModelAndView modelAndView) {
         modelAndView.addObject("products", this.productService.getAll());
@@ -128,11 +89,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Возвращает страницу "client/product" с 1-м товаром с уникальним URL, который
-     * совпадает с входящим параметром url. URL запроса "/product_{url}", метод GET.
-     * В запросе в параметре url можно передавать как URL так и артикль товара.
-     */
     @RequestMapping(value = "/product_{url}", method = RequestMethod.GET)
     public ModelAndView viewProduct(@PathVariable("url") String url, ModelAndView modelAndView) {
         Product product;
@@ -153,10 +109,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Возвращает страницу "client/cart" - страница корзины с торговыми позициями, которие сделал клиент.
-     * URL запроса "/cart", метод GET.
-     */
     @RequestMapping(value = "/cart", method = RequestMethod.GET)
     public ModelAndView viewCart(ModelAndView modelAndView) {
         modelAndView.addObject("sale_positions", this.shoppingCartService.getSalePositions());
@@ -166,10 +118,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Добавляет товар с уникальным кодом id в корзину и перенаправляет по запросу "/cart".
-     * URL запроса "/cart_add", метод POST.
-     */
     @RequestMapping(value = "/cart_add", method = RequestMethod.POST)
     public ModelAndView addProductToCart(@RequestParam long id, ModelAndView modelAndView) {
         SalePosition salePosition = new SalePosition(this.productService.get(id), 1);
@@ -178,10 +126,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Быстрое добавления товара с уникальным номером id в корзину и перенаправление
-     * по запросу входящего параметра url. URL запроса "/cart_add_quickly", метод POST.
-     */
     @RequestMapping(value = "/cart_add_quickly", method = RequestMethod.POST)
     public ModelAndView addProductToCartQuickly(@RequestParam long id,
                                                 @RequestParam String url,
@@ -192,10 +136,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Очищает корзину от торгвых позиции и перенаправление по запросу "/cart".
-     * URL запроса "/cart_clear", метод GET.
-     */
     @RequestMapping(value = "/cart_clear", method = RequestMethod.GET)
     public ModelAndView clearCart(ModelAndView modelAndView) {
         this.shoppingCartService.clear();
@@ -210,11 +150,6 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Оформляет и сохраняет заказ клиента, возвращает страницу "client/checkout".
-     * Если корзина пуста, по перенаправляет на главную страницу.
-     * URL запроса "/checkout", метод POST.
-     */
     @RequestMapping(value = "/checkout", method = RequestMethod.POST)
     public ModelAndView viewCheckout(@RequestParam(value = "user_name") String name,
                                      @RequestParam(value = "user_email") String email,
@@ -243,18 +178,12 @@ public class AppController {
         return modelAndView;
     }
 
-    /**
-     * Перенаправляет по запросу "/cart", если обратится по запросу "/checkout" методом GET.
-     */
     @RequestMapping(value = "/checkout", method = RequestMethod.GET)
     public ModelAndView viewCheckout(ModelAndView modelAndView) {
         modelAndView.setViewName("redirect:/cart");
         return modelAndView;
     }
 
-    /*
-    * Поиск по названию продукта
-    * */
     @RequestMapping(value="/search", method=RequestMethod.POST)
     public String greetingsAction(@RequestParam(value="pattern") String pattern,
                                   RedirectAttributes redirectAttributes)

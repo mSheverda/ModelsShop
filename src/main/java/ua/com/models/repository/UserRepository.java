@@ -20,6 +20,5 @@ public interface UserRepository extends MainRepository<User, Long> {
 
     void deleteByName(String name);
 
-    //List<User> search(String searchTerm);
 }
 

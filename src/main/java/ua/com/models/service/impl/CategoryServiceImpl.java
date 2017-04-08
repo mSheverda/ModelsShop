@@ -13,27 +13,15 @@ import ua.com.models.service.CategoryService;
 
 @Service
 public class CategoryServiceImpl extends MainServiceImpl<Category> implements CategoryService {
-    /**
-     * Реализация интерфейса для работы категорий с базой данных.
-     */
+
     private final CategoryDAO dao;
 
-    /**
-     * Конструктор для инициализации основных переменных сервиса.
-     * Помечаный аннотацией @Autowired, которая позволит Spring
-     * автоматически инициализировать объект.
-     *
-     */
     @Autowired
     public CategoryServiceImpl(CategoryDAO dao) {
         super(dao);
         this.dao = dao;
     }
 
-    /**
-     * Возвращает категорию из базы данных, у которой совпадает параметр url.
-     * Режим только для чтения.
-     */
     @Override
     @Transactional(readOnly = true)
     public Category get(String url)
@@ -42,9 +30,6 @@ public class CategoryServiceImpl extends MainServiceImpl<Category> implements Ca
         return category;
     }
 
-    /**
-     * Удаляет категрию из базы даных, у которого совпадает поле url.
-     */
     @Override
     @Transactional
     public void remove(String url)

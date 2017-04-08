@@ -27,10 +27,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new String[] { "/" };
     }
 
-    /**
-     * Настройка ссесии.
 
-     */
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         super.onStartup(servletContext);
@@ -43,10 +40,6 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         encodingFilter.addMappingForUrlPatterns(null, true, "/*");
     }
 
-    /**
-     * Включение исключений NoHandlerFound.
-     *
-     */
     @Override
     public DispatcherServlet createDispatcherServlet(WebApplicationContext context) {
         final DispatcherServlet dispatcherServlet = (DispatcherServlet) super.createDispatcherServlet(context);
